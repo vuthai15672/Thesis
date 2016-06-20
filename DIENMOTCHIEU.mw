@@ -1,0 +1,2801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="15" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true"></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="1080" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles><Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Number" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Task>
+</Task>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">DOC TRI THUC</Text-field></Title><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1504" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">JSFH</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1505" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">JSFH</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L1118" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[init] := proc()</Font><Font foreground="[102,51,255]">
+</Font><Font bold="false" foreground="[0,0,0]"># Ham doc tri thuc dac ta tu cac file va luu tru trong cac bien toan cuc</Font>
+<Font bold="false">global Obj_Structs ;
+
+local Init, read_ObjName;</Font>
+
+<Font foreground="[153,51,255]">Init:=proc()</Font>
+  <Font bold="false">Obj_Structs := [];</Font>
+<Font foreground="[153,102,255]">end: # end Init</Font>
+
+#------------------------------------------<Font style="Text">
+Ham doc file OBJECT_KINDS.txt dua vao Obj_Structs</Font><Font foreground="[153,51,255]">
+read_ObjName := proc()</Font><Font bold="false">
+  
+  local  line, s, fd;  
+  fd := fopen(cat(url,&quot;/Data/OBJECT_KINDS.txt&quot;), READ, TEXT);
+  line := readline(fd);
+  while line &lt;&gt; 0 and SearchText(&quot;begin_Objects&quot;, line) = 0   do
+     line := readline(fd);
+  od;
+  line := readline(fd);
+  while line &lt;&gt; 0 and SearchText(&quot;end_Objects&quot;, line) = 0  do
+    if line = &quot;&quot; or SearchText(&quot;#&quot;, line) &gt; 0 then line := readline(fd);next;fi;
+    s := convert(parse(line), string);
+    if s &lt;&gt; NULL then
+      Obj_Structs := [op(Obj_Structs),[s,[]]];
+    fi;
+    line := readline(fd);
+  od;
+  fclose(fd);</Font><Font foreground="[153,51,255]">
+end proc:  #  read_ObjName</Font>
+ 
+#------------------------------------------
+<Font bold="false" foreground="[0,0,0]"># Init's body</Font>
+<Font bold="false"> Init();
+ read_ObjName();</Font>
+<Font foreground="[0,0,255]">end:# init</Font></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">DOC CAU TRUC CUA MOT DOI TUONG</Text-field></Title>
+<Group labelreference="L1217" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text"> </Font><Font bold="false" executable="false" foreground="[0,0,0]"># Ham nay doc file &lt;ten doi tuong&gt;.txt - doc cau truc cua 1 doi tuong</Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[0,0,255]">DIENMOTCHIEU[ReadCObject]:= proc(filename::string)</Font><Font bold="false">
+local
+   nameO, AttrO, OtherName,Constraint, Cons_Prop,Property, CRelation,Facts, Rule, BaseO,     
+   fd, line, s, f,result,oldresult,il ,
+   Init, Readname, ReadBaseO, ReadOtherName, Readvariables, Readconstraints, Readconstruction_properties,
+   Readproperties, Readrelations,Readfacts, Readrules;
+   <Font foreground="[153,51,255]">
+Init := proc()</Font>
+ 
+  nameO := &quot;&quot;; </Font><Font style="Text"># luu ten doi tuong</Font><Font bold="false">
+  BaseO := [ [], [] ]; </Font><Font style="Text"># luu cac doi tuong nen: 
+                                                   # 1: luu ten cac doi tuong nen 
+                                                   # 2: luu kieu cua cac doi tuong nen</Font><Font bold="false">
+  OtherName:=[];</Font><Font style="Text" executable="true">#luu dang khai bao khac cua doi tuong</Font><Font bold="false">
+  AttrO := [[],[]]; </Font><Font style="Text"># luu cac thuoc tinh cua doi tuong</Font><Font bold="false">
+                    </Font><Font style="Text">#1:luu ten thuoc tinh cua doi tuong
+                                                  #2: luu kieu thuoc tinh cua doi tuong</Font><Font bold="false">
+  Constraint := []; </Font><Font style="Text"># luu rang buoc cua thuoc tinh cua doi tuong</Font><Font bold="false"> 
+  Cons_Prop :=[];
+  Property := [];</Font><Font style="Text"># luu tinh chat cua doi tuong</Font><Font bold="false">
+  Facts:=[];     </Font><Font style="Text" executable="true">#luu cac su kien ben trong doi tuong</Font><Font bold="false">
+  CRelation := []; </Font><Font style="Text"># luu cacquan he tinh toan cua doi tuong</Font><Font bold="false">
+  Rule := [];</Font><Font style="Text"># luu cac luat cua doi tuong</Font><Font bold="false">
+ <Font foreground="[204,51,255]">
+
+</Font><Font foreground="[153,51,255]">end: # init
+
+Readname := proc() </Font>
+local k, s;
+  k := SearchText(&quot;:&quot;,line);
+  s := substring(line,(k+1)..length(line));
+  nameO := convert(parse(s),string);<Font foreground="[153,51,255]">
+end: # Readname
+
+ReadBaseO := proc()</Font> </Font><Font style="Text"># Doc cac doi tuong nen</Font><Font bold="false">
+local k, lst, s, name, listO, listT ;
+   listO := [];   
+   listT := [];
+   line := readline(fd);
+   while line &lt;&gt; 0 and SearchText(&quot;begin_othername&quot;,line)=0    do
+      k := SearchText(&quot;:&quot;,line);
+      if  k &gt; 0 then
+         lst := [parse(substring(line,1..(k-1)))];  
+         listO := [op(listO),op(lst)];
+
+         s := substring(line,(k+1)..length(line));
+	 name := convert(parse(s),string);
+
+         listT := [op(listT), name $ nops(lst)];
+      fi;
+      line := readline(fd);
+   od;
+   BaseO := [listO, listT];<Font foreground="[153,51,255]">
+end:  #  ReadBaseO
+
+ReadOtherName := proc()</Font> </Font><Font style="Text"># Doc dang khai bao khac cua doi tuong</Font><Font bold="false">
+local expr;
+  line := readline(fd);
+  while line &lt;&gt; 0 and  SearchText(&quot;end_othername&quot;,line)=0 do
+    expr := parse(line);
+    if evalb(expr &lt;&gt; NULL) then
+      OtherName := [op(OtherName), expr];
+    fi;
+    line := readline(fd);
+  od;<Font foreground="[153,51,255]">
+end:  #  ReadOtherName 
+
+Readvariables := proc()</Font> </Font><Font style="Text"># Doc cac thuoc tinh cua doi tuong</Font><Font bold="false">
+local k, il, lst, lst1, s, name;
+  line := readline(fd);
+  while line &lt;&gt; 0 and SearchText(&quot;end_variables&quot;,line)=0   do
+    k := SearchText(&quot;:&quot;,line);
+    if k &gt; 0 then
+      lst := [parse(substring(line,1..(k-1)))];</Font><Font style="Text"># Luu ten cua thuoc tinh</Font><Font bold="false"> 
+      s := substring(line,(k+1)..length(line)); </Font><Font style="Text"># Luu kieu cua thuoc tinh</Font><Font bold="false">     
+      name := convert(parse(s),string);
+
+      lst1 := [seq(name,il=1..nops(lst))];
+      AttrO[1] := [op(AttrO[1]),op(lst)];
+      AttrO[2] := [op(AttrO[2]),op(lst1)];
+    fi;
+    line := readline(fd);
+  od;<Font foreground="[153,51,255]">
+end: # Readvariables
+
+Readconstraints := proc()</Font></Font><Font style="Text"># Doc rang buoc</Font><Font bold="false">
+local expr;
+  line := readline(fd);
+  while line &lt;&gt; 0 and  SearchText(&quot;end_constraints&quot;,line)=0 do
+    expr := parse(line);
+    if evalb(expr &lt;&gt; NULL) then
+      Constraint := [op(Constraint), expr];
+    fi;
+    line := readline(fd);
+  od;<Font foreground="[153,51,255]">
+end: # Readconstraints
+
+Readconstruction_properties:=proc()
+</Font>local expr;
+  line := readline(fd);
+  while line &lt;&gt; 0 and  SearchText(&quot;end_construction_properties&quot;,line)=0 do
+    expr := parse(line);
+    if evalb(expr &lt;&gt; NULL) then
+      Cons_Prop := [op(Cons_Prop), expr];
+    fi;
+    line := readline(fd);
+  od;<Font foreground="[153,51,255]">
+</Font><Font foreground="[153,102,255]">end: # Readconstruction_properties</Font><Font foreground="[153,51,255]">
+
+Readproperties := proc()</Font></Font><Font style="Text"># Doc tinh chat</Font><Font bold="false">
+local il,expr;
+  line := readline(fd);
+  while line &lt;&gt; 0 and  SearchText(&quot;end_properties&quot;,line)=0 do
+    expr := parse(line);
+    if evalb(expr &lt;&gt; NULL) then
+   for il in  Set_Vars(expr) do
+     if type(il,`function`) and op(0,il)=`.` and member(op(1,il),AttrO[1],'k') then 
+       expr:=subs(i=parse(AttrO[2][k]).op(2,il),expr);
+     elif member(il,AttrO[1],'k')and type(parse(AttrO[2][k]),`indexed`) then
+       expr:=subs(il=parse(AttrO[2][k]),expr);
+     fi;
+   od;
+      Property := [op({op(Property),expr})];
+    fi;
+    line := readline(fd);
+  od;<Font foreground="[153,51,255]">
+end: # Readproperties
+
+Readrelations := proc()</Font></Font><Font style="Text"># Docquan he tinh toan</Font><Font bold="false">
+local leftname, expr, strlist, k, f, Readrelation;
+
+  <Font foreground="[153,51,255]">Readrelation := proc()</Font>
+  local il;
+    f[1] := line; 
+    line := readline(fd);
+    while line &lt;&gt; 0 and SearchText(&quot;end_relation&quot;,line)=0 do
+      leftname := convert(lhs(parse(line)), string);
+      expr := rhs(parse(line));
+      if leftname = &quot;expf&quot; then 
+          expr:=parse(expr);
+</Font>      <Font bold="false">fi;
+        for il in  Set_Vars(expr) do
+          if type(il,`function`) and op(0,il)=`.` and member(op(1,il),AttrO[1],'k') then 
+            expr:=subs(il=parse(AttrO[2][k]).op(2,il),expr);
+          elif member(il,AttrO[1],'k') and type(parse(AttrO[2][k]),`indexed`) then
+            expr:=subs(il=parse(AttrO[2][k]),expr);
+          fi;
+        od;
+        
+      if (member(leftname,strlist,'k')) then             
+        f[k] := expr;
+      fi;
+      line := readline(fd);
+    od;
+  <Font foreground="[153,51,255]">end: # Readrelation</Font>
+
+  f := [&quot;&quot;,1,{},1,{},1=1,0]; # khoi tao f
+  strlist := [&quot;&quot;,&quot;flag&quot;,&quot;Mf&quot;,&quot;rf&quot;,&quot;vf&quot;,&quot;expf&quot;,&quot;cost&quot;];
+  line := readline(fd);
+  while line &lt;&gt; 0 and  SearchText(&quot;end_computation_relations&quot;,line)=0 do
+    if (SearchText(&quot;begin_relation&quot;,line) &gt; 0) then
+      Readrelation();
+      CRelation := [op(CRelation), f];
+    fi;
+    line := readline(fd);
+  od;<Font foreground="[153,51,255]">
+end: # Readrelations
+
+Readfacts:=proc()
+
+end: #Readfacts
+
+Readrules := proc()</Font>
+local    read_1Rule;
+
+   read_1Rule := proc()
+   local  i, j,loai, tens, kieus, ten1, n1, kieu1, gt_kl, k,thutuc;
+      loai := &quot;&quot;;  tens := [];  kieus := [];  gt_kl := [{},{}];thutuc:=&quot;&quot;;
+      line := readline(fd);
+      while line &lt;&gt; 0 and SearchText(&quot;begin_rule&quot;, line) = 0 and 
+            SearchText(&quot;end_rules&quot;, line) = 0 do
+         line := readline(fd);
+      od;
+      if  SearchText(&quot;end_rules&quot;, line) &gt; 0 then
+         RETURN (NULL);
+      fi;
+      line := readline(fd);
+      while line &lt;&gt; 0 and SearchText(&quot;end_rule&quot;, line) = 0 do
+         if  SearchText(&quot;kind_rule&quot;, line) &gt; 0  then  
+            loai := rhs(parse(line));
+         else
+            k := SearchText(&quot;:&quot;, line);
+            if  SearchText(&quot;hypothesis_part&quot;, line) &gt; 0  then
+               gt_kl[1] := substring(line, (k+1)..length(line));
+               line := readline(fd);
+               while line &lt;&gt; 0 and SearchText(&quot;end_hypothesis_part&quot;, line) = 0  do
+
+                  gt_kl[1] := cat (gt_kl[1], line);
+                  line := readline(fd);
+               od;
+               gt_kl[1] := parse(gt_kl[1]);
+               #-------------------------------------
+               <Font foreground="[0,0,0]"># Chuyen A &lt; B --&gt; [&quot;&lt;&quot;,A,B]</Font>  
+               for i to nops(gt_kl[1]) do
+                 if type(gt_kl[1][i],`&lt;`) then
+                  gt_kl[1] := gt_kl[1] minus {gt_kl[1][i]}  union {[&quot;&lt;&quot;, lhs(gt_kl[1][i]),rhs(gt_kl[1][i])]};   
+                 fi;             
+               od;           
+               #-------------------------------------                
+         for j in  Set_Vars(gt_kl[1]) do
+          if type(j,`function`) and op(0,j)=`.` and member(op(1,j),AttrO[1],'k') then 
+            gt_kl[1]:=subs(j=parse(AttrO[2][k]).op(2,j),gt_kl[1]);
+          elif member(j,AttrO[1],'k') and type(parse(AttrO[2][k]),`indexed`) then            
+            gt_kl[1]:=subs(j=parse(AttrO[2][k]),gt_kl[1]);             
+          fi;
+        od;
+
+            elif  SearchText(&quot;goal_part&quot;, line) &gt; 0  then
+               gt_kl[2] := substring(line, (k+1)..length(line));
+               line := readline(fd);
+               while line &lt;&gt; 0 and SearchText(&quot;end_goal_part&quot;, line) = 0  do
+                  gt_kl[2] := cat (gt_kl[2], line);
+                  line := readline(fd);
+               od;
+               gt_kl[2] := parse(gt_kl[2]);
+               #-------------------------------------
+               <Font foreground="[0,0,0]"># Chuyen A &lt; B --&gt; [&quot;&lt;&quot;,A,B]</Font>  
+               for il to nops(gt_kl[2]) do
+                 if type(gt_kl[2][il],`&lt;`) then
+                   gt_kl[2] := gt_kl[2] minus {gt_kl[2][il]}  union {[&quot;&lt;&quot;, lhs(gt_kl[2][il]),rhs(gt_kl[2][il])]};                     fi;             
+               od;           
+               #-------------------------------------   
+         for j in  Set_Vars(gt_kl[2]) do
+          if type(j,`function`) and op(0,j)=`.` and member(op(1,j),AttrO[1],'k') then 
+            gt_kl[2]:=subs(j=parse(AttrO[2][k]).op(2,j),gt_kl[2]);
+          elif member(j,AttrO[1],'k') and type(parse(AttrO[2][k]),`indexed`) then            
+            gt_kl[2]:=subs(j=parse(AttrO[2][k]),gt_kl[2]);            
+          fi;
+        od;
+
+            <Font foreground="[255,51,51]">elif  SearchText(&quot;proc&quot;, line) &gt; 0  then
+            thutuc:=parse(substring(line,SearchText(&quot;:&quot;, line)+1...length(line)));
+            </Font>
+            elif  k &gt; 0  then
+               ten1 := [parse( substring(line, 1..(k-1)) )];n1 := nops(ten1);
+               kieu1 := convert ( parse( substring(line, (k+1)..length(line)) ), string);
+
+
+        for j in  Set_Vars(ten1) do
+          if type(j,`function`) and op(0,j)=`.` and member(op(1,j),AttrO[1],'k') then 
+            ten1:=subs(j=parse(AttrO[2][k]).op(2,j),ten1);
+          elif member(j,AttrO[1],'k') and type(parse(AttrO[2][k]),`indexed`) then            
+            ten1:=subs(j=parse(AttrO[2][k]),ten1);             
+          fi;
+        od;
+
+
+               tens := [op(tens), op(ten1)];  kieus := [op(kieus), kieu1 $ n1];
+
+            fi;
+         fi;
+         line := readline(fd);
+      od;
+      if  tens &lt;&gt;[] then  
+         Rule := [op(Rule), [loai, tens, kieus, gt_kl,thutuc] ];
+      fi;
+      
+   end:  #  Read_1Rule
+#   trace(read_1Rule);
+   while  line &lt;&gt; 0 and SearchText(&quot;end_rules&quot;, line) = 0  do
+      read_1Rule();
+   od;<Font foreground="[153,102,255]">
+end: # Readrules</Font></Font><Font style="Text">
+
+
+ </Font><Font bold="false" executable="false" foreground="[0,0,0]"># ReadCObject's main body</Font><Font bold="false">
+Init();
+# 
+for il in Hierarchy do
+ if filename=convert(il[1],string) then 
+     oldresult:= ReadCObject(convert(il[2],string)); 
+     AttrO:=oldresult[3];     
+     Constraint:=oldresult[5];
+     Property:=oldresult[7];
+     CRelation:=oldresult[8];
+     Facts:=oldresult[9];
+     Rule:=oldresult[10];
+  
+     break;fi;
+od;
+
+fd := fopen(cat(url,&quot;/Data/&quot;,filename,&quot;.txt&quot;),READ,TEXT);
+line := readline(fd);
+while line &lt;&gt; 0 and SearchText(&quot;begin_object&quot;, line)=0 do
+   line := readline(fd);
+od;
+while line &lt;&gt; 0 and SearchText(&quot;end_object&quot;, line)=0 do
+  if SearchText(&quot;begin_object&quot;, line) &gt; 0 then
+    Readname();      ReadBaseO();   next;
+  elif SearchText(&quot;begin_othername&quot;,line) &gt; 0 then  ReadOtherName();
+  elif SearchText(&quot;begin_variables&quot;,line) &gt; 0 then    Readvariables();
+  elif SearchText(&quot;begin_constraints&quot;,line) &gt; 0 then    Readconstraints(); 
+  elif SearchText(&quot;begin_construction_properties&quot;,line) &gt; 0 then  Readconstruction_properties();
+  elif SearchText(&quot;begin_properties&quot;,line) &gt; 0 then    Readproperties();
+  elif SearchText(&quot;begin_computation_relations&quot;,line) &gt; 0 then Readrelations();
+  elif SearchText(&quot;begin_rules&quot;,line) &gt; 0 then  Readrules();
+  
+  fi;
+  line := readline(fd);
+od;
+fclose(fd);
+
+result := [nameO,BaseO,AttrO,OtherName, Constraint,Cons_Prop,Property,CRelation,Facts, Rule]; 
+
+RETURN(result);</Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[0,0,255]">end proc:  #  ReadCObject</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1215" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1214" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[ObjStruct] := proc(Obj_name::string, s)</Font><Font style="Text">
+</Font><Font bold="false" executable="false" foreground="[0,0,0]"># ham kiem tra Obj_name co thuoc tap OBJECTS luu tru khong va lay ra cac cau truc cua doi tuong (neu co)</Font><Font bold="false">
+global Obj_Structs;
+local il,flag;flag:=0;
+  for il from 1 to nops(Obj_Structs) do
+    if evalb(Obj_Structs[il][1]=Obj_name) then
+      flag:=1;break;
+    fi;
+  od;
+  if(flag=0)then return(NULL);fi;
+  if  nargs = 2 and s = &quot;reset&quot;  then  Obj_Structs[il][2] := [];  RETURN (NULL);  fi;
+  if Obj_Structs[il][2] = [] then
+    Obj_Structs[il][2]:= ReadCObject(Obj_name);
+  fi;
+  RETURN(Obj_Structs[il][2]);</Font><Font foreground="[153,51,255]">
+
+</Font><Font foreground="[0,0,255]">end:  #  ObjStruct</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1216" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+</Section><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1443" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">JSFH</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">PHAN LOAI VA HOP NHAT SU KIEN</Text-field></Title><Presentation-Block>
+<Group labelreference="L1252" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[Kind_Fact] := proc(fact)</Font>
+<Font foreground="[0,0,0]"># Phan loai su kien</Font>
+<Font bold="false" foreground="[0,0,0]"># Xuat so thu tu cua su kien (hien co 5 su kien)</Font>
+<Font bold="false">global Obj_Structs, Objs, Obj_Types, Attrs,Attr_Types;
+local temp, k;
+
+  <Font foreground="[0,0,0]"># Su kien loai 1</Font> 
+  if type(fact, `list`) and nops(fact) = 2 and Is_Element(fact[1]) and type(fact[2],string) then
+        return 1;   
+
+  <Font foreground="[0,51,51]"># Su kien loai 2</Font>  
+  elif Is_Element(fact) then return 2; 
+
+  elif type(fact,`=`) and Is_Element(lhs(fact)) then
+  <Font foreground="[0,51,51]"># Co cac dang su kien o dang nay la : 3, 4, 5
+</Font>
+    <Font foreground="[0,51,51]"># Su kien loai 4</Font>
+    if Is_Element(rhs(fact)) then return 4;
+
+    <Font foreground="[0,51,51]"># Su kien loai 3</Font>
+    elif not Has_Element(Set_Vars(rhs(fact))) then
+       return 3;
+    else return 5;
+    fi;
+
+  elif type(fact,`=`) then <Font foreground="[0,0,0]"># Ben Trai la so</Font>
+    if not Is_Element(rhs(fact)) and Has_Element(Set_Vars(rhs(fact))) then
+         return 5;
+    fi;
+  fi;
+  return 0;</Font>
+<Font foreground="[0,0,255]">end : # Kind_Fact</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1250" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzZGLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZDLUYsNi1RKCZtaW51cztGJ0YvRjJGNUY3RjlGO0Y9Rj9GQUZERkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRi8=">NiI=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1249" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[Unify_Fact] := proc(fact1,fact2)</Font>
+<Font bold="false" foreground="[0,0,0]"># Kiem tra tinh hop nhat giua 2 su kien</Font><Font bold="false">
+local k1, k2, temp1, temp2, il, j, temp;
+
+global Objs,Obj_Types, Fact_Kinds;
+ 
+  if fact1 = fact2 then return true;fi;
+ 
+  k1 := Kind_Fact(fact1);
+  k2 := Kind_Fact(fact2);
+   
+  if k1 &lt;&gt; k2 then return false;fi;
+
+  <Font foreground="[0,0,0]"># Cung la su kien loai 1</Font>
+  if k1 = 1 then
+    if Unify_Fact(fact1[1],fact1[2]) then
+      if evalb(fact1[2]=fact2[2]) then return true; fi; 
+    fi;
+
+  <Font foreground="[0,0,0]"># Cung la su kien loai 2</Font>
+  elif k1 =2 then
+    if fact1 = fact2 then return true;fi; <Font foreground="[0,0,0]"># giong nhu duc</Font>
+    
+    if type(fact1,`list`) and type(fact2,`list`) and {op(fact1)}={op(fact2)} then return true;fi;
+
+    if type(fact1,`function`) and evalb(op(0,fact1)=`.`) and
+       type(fact2,`function`) and evalb(op(0,fact2)=`.`) then
+        temp1 := [op(fact1)]; temp2 := [op(fact2)];
+        for j to nops(temp1) do
+           if not Unify_Fact(temp1[j],temp2[j]) then 
+              return false;fi;
+        od; 
+        return true;
+     fi;    
+
+       
+  <Font foreground="[0,0,0]"># Cung la su kien loai 3</Font>
+  elif k1 = 3 then
+    if Unify_Fact(lhs(fact1),lhs(fact2)) and Is_Equal(rhs(fact1),rhs(fact2)) then 
+           return true;   
+    fi; 
+
+  <Font foreground="[0,0,0]"># Cung la su kien loai 4</Font>
+  elif k1 = 4 then
+    if Unify_Fact(lhs(fact1),lhs(fact2)) and Unify_Fact(rhs(fact1),rhs(fact2)) then 
+       return true;
+    elif Unify_Fact(lhs(fact1),rhs(fact2)) and Unify_Fact(rhs(fact1),lhs(fact2)) then 
+	return true;     
+    fi;
+
+
+  <Font foreground="[0,0,0]"># Cung la su kien loai 5</Font>
+  elif k1 = 5 then
+    if Is_Equal(lhs(fact1)- rhs(fact1) + lhs(fact2) - rhs(fact2),0) then return true;
+    elif Is_Equal(lhs(fact1)- rhs(fact1) - lhs(fact2) + rhs(fact2),0) then return true;
+    else
+       temp1:=Set_Vars(fact1);
+       temp2:=Set_Vars(fact2);
+       temp:=fact2; 
+       for il in temp1 do
+          for j in temp2 do
+             if Unify_Fact(il,j)
+                 then temp:=subs(j=il,temp); fi;
+          od;
+       od; 
+       if temp &lt;&gt; fact2 and 
+          Unify_Fact(fact1,temp)
+             then return true;
+       fi;        
+    fi;
+  fi; 
+  return false ;</Font>
+<Font foreground="[0,0,255]">end : # Unify_Fact</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1247" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzZBLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZDLUYsNi1RKCZtaW51cztGJ0YvRjJGNUY3RjlGO0Y9Rj9GQUZERkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGLw==">NiI=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1248" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[Unify_In]:=proc(fact, Facts)</Font>
+<Font style="Text"># kiem tra fact co trong Facts khong theo nghia hop nhat</Font><Font bold="false">
+local il;
+  <Font foreground="[0,0,0]"># Neu co 3 doi so thi return vi tri cua thanh phan trong Facts ma hop nhat voi fact</Font>
+  if nargs = 3 then
+    for il to nops(Facts) do
+       if Unify_Fact(fact, Facts[il]) then return il;fi;
+    od;  
+    return 0;
+
+  else 
+  <Font foreground="[0,0,0]"># Neu 2 doi so thi return true/false </Font>
+    for il to nops(Facts) do
+       if Unify_Fact(fact, Facts[il]) then return true;fi;
+    od;  
+    return false;
+  fi; </Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[0,0,255]">end proc:  #  Unify_In</Font></Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L1251" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="Maple Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJWJvbGRGJy8lK2ZvbnR3ZWlnaHRHRjE=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation><Font bold="false" executable="false" foreground="[0,0,0]"># Cac ham tim phan giao,hieu,hoi cua cac tap su kien, xet theo su hop nhat Unify_Fact.</Font><Font bold="false" foreground="[0,0,0]">
+</Font><Font bold="false" foreground="[0,0,255]">DIENMOTCHIEU</Font><Font foreground="[0,0,255]">[Intersect_Unify] := proc(Aset, Bset)  </Font><Font bold="false">
+   local  fact, Cset;
+   Cset := {};
+   for  fact in Aset  do
+      if  Unify_In(fact, Bset)  then  Cset := {op(Cset), fact};fi;
+   od;
+   return Cset;</Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[0,0,255]">end:  #  Intersect_Unify</Font><Font foreground="[153,51,255]">
+
+</Font><Font foreground="[0,0,255]">DIENMOTCHIEU[Minus_Unify]:= proc( Aset, Bset)</Font><Font bold="false">
+ return   Aset minus Intersect_Unify(Aset, Bset);   </Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[0,0,255]">end:  #  Minus_Unify</Font><Font foreground="[153,51,255]">
+
+</Font><Font foreground="[0,0,255]">DIENMOTCHIEU[Union_Unify] := proc(Aset, Bset)<Font bold="false">  </Font></Font><Font bold="false"> 
+   return Aset union Minus_Unify(Bset, Aset);   </Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[0,0,255]">end:  #  Union_Unify</Font>
+</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">CAC HAM PHU</Text-field></Title><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1372" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1375" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[51,51,255]">DIENMOTCHIEU[Set_Vars]:=proc(expr)</Font> 
+<Font bold="false" foreground="[0,0,0]"># Tim tap hop cac bien trong expr, voi expr la cac su kien</Font>
+<Font bold="false">local F,i;
+   if  type(expr, constant)  or type(expr, string) then  RETURN ({});
+   elif type(expr,`name`)or type(expr,`indexed`) or type(expr, function) 
+      then return {expr};
+   elif type(expr,`set`) or type(expr,list)then
+      F:={}; 
+      for i in expr do
+         F:= F union Set_Vars(i);
+      od; 
+      return F;
+   else F:= Set_Vars({op(expr)});
+      return F;
+   fi;</Font>
+<Font foreground="[51,51,255]">end proc:  #  Set_Vars</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1374" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[Valid_Struct_Name] := proc(ten)</Font><Font foreground="[153,51,255]">
+</Font><Font bold="false" executable="false" foreground="[0,0,0]"># Kiem tra tinh hop le cua mot ten cau truc </Font><Font foreground="[255,51,51]">
+</Font><Font bold="false" foreground="[0,0,0]"># Cac ten cau truc hop le la:
+#  &lt;name&gt; . Vidu: O, A, B
+#  &lt;[name,name]&gt;. Vi du: [A,B] : doan mach AB
+#  &lt;first.last&gt; , voi first, last thuoc 1 trong 2 dang tren. Vidu: A.R, [M,B].i</Font><Font foreground="[255,51,51]">
+<Font bold="false">
+local Sn, i,temp, co, s;
+
+   if type(ten,`symbol`) and ten &lt;&gt; a then return true;
+   elif type(ten,`list`) and nops(ten)=2 then return true; 
+   elif type(ten,`set`) and nops([op(ten)])=1 and type(op(ten),`+`) then return true;
+   elif type(ten,`function`) and op(0,ten)=`.` then
+      if Valid_Struct_Name(op(1,ten)) and Valid_Struct_Name(op(2,ten)) then
+         return true;
+      fi;   
+   fi;  
+
+   return false;
+</Font></Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[0,0,255]">end proc: # Valid_Struct_Name</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1373" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[Is_Element] := proc(ex)</Font>
+<Font bold="false">local i; 
+global Objs, Attrs;
+  if member(ex, Objs) or (nops([op(ex)]) &gt; 1 and (op(2,ex) in {R,i,U})) then return true;
+  elif  Valid_Struct_Name(ex) then
+     RETURN (true);
+  fi; 
+ return false;</Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[0,0,255]">end: #  Is_Element</Font></Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L1349" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[51,51,255]">DIENMOTCHIEU[Has_Element] := proc(ex) 
+</Font><Font bold="false" foreground="[0,0,0]"># ex la mot list hay set
+# Kiem xem co phan tu nao trong ex la doi tuong hay thuoc tinh</Font>
+<Font bold="false">local  i;
+   for i in ex  do
+      if  Is_Element(i)  then  RETURN (true);fi;
+   od;
+   RETURN (false);</Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[51,51,255]">end:  #  Has_Element</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1376" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[Is_Equal] := proc(expr1,expr2)</Font>
+<Font bold="false" foreground="[0,0,0]"># Kiem tra expr1 va expr2 co bang nhau khong</Font>
+<Font bold="false">local flag, i,j;</Font><Font foreground="[51,0,51]">
+  
+ </Font><Font bold="true" style="Text"> </Font><Font bold="false" executable="false" foreground="[0,0,0]"># Truong hop expr1 va expr2 deu la list</Font>
+  <Font bold="false">if  type(expr1,list) and type(expr2,list)  then
+    if  nops(expr1) &lt;&gt; nops(expr2)  then      RETURN(false);
+    fi;
+    for i from 1 to nops(expr1) do
+      if  not <Font foreground="[255,51,102]">Is_Equal</Font>(expr1[i],expr2[i])  then        RETURN(false);
+      fi;
+    od;
+    RETURN(true);
+  fi;
+</Font>
+ <Font foreground="[51,0,51]"> </Font><Font bold="false" executable="false" foreground="[0,0,0]"># Truong hop expr1 va expr2 deu la set</Font>
+  <Font bold="false">if  type(expr1,set) and type(expr2,set)  then
+    for i in expr1 do
+      flag := false;
+      for j in expr2 do
+        if <Font foreground="[255,51,51]">Is_Equal</Font>(i,j) then  flag := true;  break;
+        fi; 
+      od;
+      if not flag then  RETURN(false);
+      fi;
+    od;
+    for i in expr2 do
+      flag := false;
+      for j in expr1 do
+        if<Font foreground="[255,102,102]"> Is_Equal</Font>(i,j) then  flag := true;  break;
+        fi; 
+      od;
+      if not flag then  RETURN(false);
+      fi;
+    od;
+    RETURN(true);
+  fi;</Font>
+
+  <Font bold="false" executable="false" foreground="[0,0,0]"># Truong hop khac</Font>
+  <Font bold="false">flag := evalb(expr1 = expr2);
+  if flag = false and not type(expr1,string) and not type(expr1,string) then  
+    <Font foreground="[255,51,51]">if type(expr1, polynom) and type(expr2, polynom) then    </Font>
+       flag := evalb(simplify(expand(expr1-expr2))=0);
+    elif <Font foreground="[255,51,51]">type(expr1, `=`) and type(expr2, `=`) then    </Font>
+       flag := evalb(simplify(expand(abs(lhs(expr1)-rhs(expr1))-abs(lhs(expr2)-rhs(expr2))))=0);
+    fi;
+  fi;
+  RETURN(flag);</Font><Font foreground="[153,51,255]">
+
+</Font><Font foreground="[0,0,255]">end proc:  #  Is_Equal</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1381" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[Name_Type] := proc(s)</Font>
+<Font bold="false" foreground="[0,0,0]"># Xuat kieu cua s : 
+</Font>
+<Font bold="false">local k;
+  if type(s,string) then
+    k := SearchText(&quot;[&quot;,s);
+    if k &gt; 0 then RETURN(substring(s,1..(k-1)));
+    else  RETURN(s); fi;<Font foreground="[153,51,255]">
+  </Font><Font foreground="[255,102,102]">elif type(s,`indexed`) then return convert(op(0,s),string);fi;
+  return &quot;?&quot;;</Font></Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[0,0,255]">end proc: #  Name_Type</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1377" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[type_Onet] := proc(element)</Font>
+<Font bold="false" executable="false" foreground="[0,0,0]"># cho biet kieu cua mot &lt;object&gt; hay mot thuoc tinh tren mang CONet.
+# RETURN &lt;type cua element&gt; hoac la &quot;type?&quot;</Font><Font bold="true" style="Text">
+</Font>
+<Font bold="false">local  k,i, Otype, nameA,OS, temp;
+global Objs, Obj_Types, Attrs, Attr_Types,Func_Structs, name_truc, Fact_Kinds;
+  
+   
+  if  member(element,Objs,'k')  then  
+       RETURN (Obj_Types[k]);
+  
+  elif member(element,Attrs,'k') then RETURN (Attr_Types[k]);
+  
+  elif  type(element, `list`)   then  <Font foreground="[0,0,0]">
+  </Font></Font>      <Font bold="false">RETURN (&quot;NAME&quot;);
+  
+  elif  type(element, function) and op(0,element) = `.`  then
+        RETURN (&quot;REAL&quot;);
+  fi;     <Font foreground="[255,51,51]">
+</Font><Font foreground="[0,0,0]">   </Font></Font><Font style="Text">#  Khong biet kieu gi</Font>
+   <Font bold="false">RETURN (&quot;type?&quot;);</Font><Font foreground="[153,102,255]">
+
+</Font><Font foreground="[0,0,255]">end proc:  #  type_Onet</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1350" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[ObjStruct_Replace]:=proc(d)</Font>
+<Font bold="false">local OSTemp,i,m,k,thaythe, j, rules;
+global Fact_Kinds;
+
+OSTemp:=<Font foreground="[255,51,51]">ObjStruct(type_Onet(d));</Font>
+OSTemp:=subs(&quot;Object&quot;=d,OSTemp);
+rules := OSTemp[10]; OSTemp := OSTemp[1..9];
+thaythe:={};<Font foreground="[255,51,102]">
+if type(d,indexed) then</Font>
+    
+   OSTemp:=subs(seq([op(parse(OSTemp[1]))][i]=[op(d)][i],i=1..nops([op(d)])),OSTemp);<Font foreground="[255,102,102]">
+
+   </Font>for k from 1 to nops(OSTemp[3][1]) do
+
+     OSTemp[3][2][k] := convert(subs({seq([op(parse(OSTemp[1]))][i]=[op(d)][i],i=1..nops([op(d)]))},parse(OSTemp[3][2][k])),string);
+
+     if SearchText(&quot;Goc&quot;,convert(OSTemp[3][1][k],string))&gt;0 then 
+       thaythe:={op(thaythe),OSTemp[3][1][k]= parse(cat(&quot;Goc&quot;,convert(op(parse(OSTemp[3][2][k]))[2],string)))};
+     fi;
+   od;<Font foreground="[255,102,102]">
+ 
+fi;</Font>
+
+OSTemp:=subs(thaythe,OSTemp);   
+
+<Font foreground="[255,102,102]">OSTemp[1]:=</Font>convert(subs(seq([op(parse(OSTemp[1]))][i]=[op(d)][i],i=1..nops([op(d)])),parse(OSTemp[1])),string); 
+
+OSTemp[3][1]:=subs( seq(OSTemp[3][1][i]=d.OSTemp[3][1][i],i=1..nops(OSTemp[3][1])),OSTemp[3][1] );
+
+thaythe := {};
+for k from 1 to nops(OSTemp[8]) do
+   for j in OSTemp[8][k][3] do
+     if type(j,`symbol`) then
+        thaythe := thaythe union {j=d.j};
+     fi;  
+   od;     
+od;  
+
+OSTemp[8] :=  subs(thaythe,OSTemp[8]);
+return [op(OSTemp),rules];</Font><Font foreground="[153,102,255]">
+</Font><Font foreground="[0,0,255]">end:# ObjStruct_Replace</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1391" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[Test_Goal]:=proc(Goal, Facts)</Font> <Font bold="false">
+  return Unify_In(Goal,Facts);</Font><Font foreground="[153,51,255]"> 
+</Font><Font foreground="[0,0,255]">end proc:  #  Test_Goal</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1394" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,51,255]">DIENMOTCHIEU[Output_Result]:=proc(Goal)</Font><Font bold="false">
+<Font foreground="[0,0,0]"># Xuat ket qua
+</Font>local facts, t,value,i,j, STemp,SN,
+      Solution, In_Tinh;
+global Fact_Kinds, Sol, Sol_Old, LoiGiai;  </Font><Font style="Text">
+
+</Font><Font bold="false" foreground="[204,0,204]">  Solution:=proc()</Font><Font bold="false">
+  <Font foreground="[0,0,0]"># Suy dien lui de loai buoc giai thua </Font>
+    local goalvars,Solnew,Step,i;
+
+    goalvars:={Goal};
+    Solnew:=[];
+
+    for i from nops(Sol) to 1 by -1 do
+
+      Step:=Sol[i];      
+      if  Intersect_Unify(Step[4],goalvars) &lt;&gt; {} or 
+          (Step[4] intersect goalvars)&lt;&gt;{} then         
+         Step[4] := (Intersect_Unify(Step[4],goalvars) union (Step[4] intersect goalvars));
+
+         if Step[1] &lt;&gt; &quot;Deduce_From3s&quot; then          
+            Solnew := [Step, op(Solnew)];
+         fi;
+
+         goalvars := Union_Unify(Minus_Unify(goalvars,Step[4]),Step[3]);
+       fi; 
+     od;
+     return(Solnew);
+   <Font foreground="[204,0,204]">end:# Solution</Font>
+
+   <Font foreground="[204,0,204]">In_Tinh := proc()</Font>
+   local S, s, value, buoc, tam, tamgoal;
+      S := Solution();              
+      value := Get_Values(Goal); 
+      tamgoal := Goal;
+<Font encoding="UTF-8">      printf(&quot;\134n***----------------------------\134n&quot;);
+</Font>      LoiGiai := [op(LoiGiai), &quot;***---------------------***&quot;];
+      
+<Font encoding="UTF-8">      printf(&quot;\134nTINH: %a\134n&quot;, tamgoal);
+</Font>      LoiGiai := [op(LoiGiai),cat(&quot; TINH: &quot;, convert(tamgoal,string))];
+<Font encoding="UTF-8">      printf(&quot;KET QUA: %a = %a\134n&quot;,tamgoal,value);
+</Font>      LoiGiai := [op(LoiGiai),cat(&quot; KET QUA: &quot;,convert(tamgoal,string),&quot; = &quot;,convert(value, string))];
+<Font encoding="UTF-8">      printf(&quot;BAI GIAI: \134n\134n&quot;);
+</Font>      LoiGiai := [op(LoiGiai), &quot; BAI GIAI: &quot;];
+
+      buoc := 0;
+      for s in S do
+        if not member(s,Sol_Old) then
+         buoc := buoc +1;
+         
+<Font encoding="UTF-8">         printf(&quot;\134nBuoc %a : \134n&quot;,buoc);
+</Font>         LoiGiai := [op(LoiGiai),cat(&quot;   Buoc &quot;,convert(buoc,string),&quot;: &quot;)]; 
+<Font encoding="UTF-8">         printf(&quot;\134tSuy ra: %a \134n&quot;, s[4]);
+</Font>         LoiGiai := [op(LoiGiai),cat(&quot;      Suy ra: &quot;,convert( s[4],string))]; 
+         if s[3] &lt;&gt; {} then
+<Font encoding="UTF-8">            printf(&quot;\134tTu: %a\134n&quot;, s[3]); 
+</Font>            LoiGiai := [op(LoiGiai),cat(&quot;      Tu: &quot;,convert(s[3],string))]; 
+         fi; 
+         if s[2] &lt;&gt; [] then 
+<Font encoding="UTF-8">            printf(&quot;\134tDo: %a\134n&quot;, s[2]); 
+</Font>            LoiGiai := [op(LoiGiai),cat(&quot;      Do: &quot;,convert(s[2],string))];
+         fi;
+<Font encoding="UTF-8">         printf(&quot;\134tThuc hien buoc giai: %s\134n&quot;,s[1]); 
+</Font>          
+         Sol_Old := [op(Sol_Old),s];
+        fi; 
+      od;    
+  <Font foreground="[204,0,204]"> end : # In_Tinh</Font>
+ 
+
+<Font foreground="[0,102,102]"># Output_Result's body</Font>
+#trace(In_Tinh);
+#trace(Solution); 
+
+if not Test_Goal(Goal, Fact_Set) then 
+<Font encoding="UTF-8">   printf(&quot;(*_*) Rat tiec %a khong giai duoc \134n\134n&quot;, Goal);
+</Font>   LoiGiai := [op(LoiGiai),cat(&quot; Rat tiec &quot;,convert(Goal,string),&quot; khong giai duoc &quot;) ]; 
+else   
+   In_Tinh();  
+fi;     
+</Font><Font foreground="[0,0,255]">end proc:  #  Output_Result</Font></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group labelreference="L1413" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[Xuly_RootOf]:=proc(tapnghiem)</Font><Font style="Text">
+</Font><Font bold="false" executable="false" foreground="[0,0,0]"># Loai bo nghiep RootOf neu khong chuyen duoc ra dang thuong.</Font><Font bold="false">
+local  L1, taphop, fact, Lng;
+
+   if  tapnghiem = []  then  RETURN ([]);fi;
+   taphop := tapnghiem[1];
+   if  SearchText(&quot;RootOf&quot;, convert(taphop, string)) = 0  then
+      RETURN( [taphop, op(Xuly_RootOf(tapnghiem[2..nops(tapnghiem)]))]);
+   fi;
+   for  fact in taphop  do
+      if  SearchText(&quot;RootOf&quot;, convert(rhs(fact), string)) &gt; 0  then
+         Lng := [allvalues(rhs(fact))];</Font><Font style="Text">
+
+        VD:  e2 := RootOf(_Z^3-1); 
+                 allvalues(e2);  KQ: 1, -1/2+1/2*I*3^(1/2), -1/2-1/2*I*3^(1/2)</Font>	<Font bold="false">
+         if  Lng &lt;&gt; [] and SearchText(&quot;RootOf&quot;, convert(Lng, string)) = 0  then
+            L1 := map(s-&gt; (`minus`(taphop,{fact}) union {lhs(fact) = s}), Lng);
+         else  L1 := [];
+         fi;
+         break;
+      fi;
+   end do;
+   RETURN (Xuly_RootOf([op(L1), op(2..nops(tapnghiem),tapnghiem)]));</Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[0,0,255]">end: # Xuly_RootOf</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1414" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzZBLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZDLUYsNi1RKCZtaW51cztGJ0YvRjJGNUY3RjlGO0Y9Rj9GQUZERkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGLw==">NiI=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1412" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[Signof]:= proc(expr)</Font><Font bold="false">
+local   dau_tong, dau_tich, dau_ham;
+
+  <Font foreground="[153,51,255]"> dau_tong := proc(expr)</Font>
+   local x, oplist, i, flag;
+      oplist := [op(expr)] ;  x := Signof(oplist[1]);
+      if  evalb(x &gt; 0) = true  then  flag := 1;
+      elif  evalb(x &lt; 0) = true  then  flag := -1;
+      elif  evalb(x = 0) = true  then  flag := 0;
+      else  RETURN(expr);
+      fi;
+      for i from 2 to nops(oplist)  do
+          x := Signof(oplist[i]);
+          if  evalb(x &gt; 0) = true  and  (flag &gt;= 0) then  flag := 1;
+          elif  evalb(x &lt; 0) = true  and  (flag &lt;= 0) then  flag := -1;
+          elif  evalb(x = 0) = true  then   ;
+          else  RETURN(expr);
+          fi;
+      od;
+      RETURN(flag);
+   <Font foreground="[153,102,255]">end: #  dau_tong</Font>
+
+   <Font foreground="[153,51,255]">dau_tich := proc(expr)</Font>
+   local x, oplist, i, flag;
+      oplist := [op(expr)] ;  x := Signof(oplist[1]);
+      if  evalb(x &gt; 0) = true  then  flag := 1;
+      elif  evalb(x &lt; 0) = true  then  flag := -1;
+      elif  evalb(x = 0) = true  then  RETURN (0);
+      else  RETURN(expr);
+      fi;
+      for i from 2 to nops(oplist)  do
+          x := Signof(oplist[i]);
+          if  evalb(x &gt; 0) = true then   ;
+          elif  evalb(x &lt; 0) = true  then  flag := -flag;
+          elif  evalb(x = 0) = true  then   RETURN (0);
+          else  RETURN(expr);
+          fi;
+      od;
+      RETURN(flag);
+   <Font foreground="[153,51,255]">end: #  dau_tich</Font>
+
+   <Font foreground="[153,51,255]">dau_ham := proc(btham)</Font>
+   local  tenham, doiham;
+      tenham := convert(op(0,btham), string);        doiham := op(1,btham);
+      if  tenham = &quot;abs&quot;  then
+         if  evalb(Signof(doiham) = 0) = true  then  RETURN(0);   else  RETURN(1);
+         fi;
+      fi;
+      if  tenham = &quot;arcsin&quot;  then
+         if  evalb(Signof(doiham) &gt; 0) = true  then  RETURN(1);
+         elif  evalb(Signof(doiham) &lt; 0) = true  then  RETURN(-1);
+         elif  evalb(Signof(doiham) = 0) = true  then  RETURN(0);
+         else  RETURN (btham);
+         fi;
+      fi;
+      # cac truong hop khac
+      RETURN  (btham);
+   <Font foreground="[153,102,255]">end:  #  dau_ham</Font>
+
+   if  evalb(expr &gt; 0) = true  then  RETURN(1);
+   elif  evalb(expr &lt; 0) = true  then  RETURN(-1);
+   elif   evalb(expr = 0) = true  then  RETURN(0);
+   elif  type(expr, function)  then  RETURN (dau_ham(expr));
+  <Font opaque="true" background="[204,204,204]"> #elif  member(expr, ObjStruct(&quot;TAMGIAC&quot;)[2])  then  RETURN(1);</Font>
+   elif  type(expr,`^`) and evalb(op(1,expr)=0) = true  then  RETURN(0);
+   elif  type(expr,`^`) and type(op(2,expr),even)  then  RETURN(1);
+   elif  type(expr,`^`) and type(op(2,expr),fraction)  and 
+         type(op(2, op(2,expr)), even)  then  RETURN(1);
+   elif  type(expr,`^`) and type(op(2, expr),odd)  then  
+      RETURN( Signof(op(1,expr)) ^  op(2,expr));
+   elif  type(expr,`+`)  then
+      RETURN (dau_tong(expr) ); # xac dinh dau cua tong
+   elif  type(expr,`*`)  then
+      RETURN (dau_tich(expr) ); # xac dinh dau cua tich
+   fi;
+   </Font><Font style="Text">Truong hop khong xac dinh duoc dau cua bieu thuc</Font><Font bold="false">
+   RETURN(expr);
+</Font><Font foreground="[0,0,255]">end: # Signof</Font></Text-field>
+</Input>
+</Group></Presentation-Block>
+<Group labelreference="L1411" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1410" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[MySolve]:=proc(eqns,vars)</Font><Font bold="false">
+local  tapnghiem,nghiem, result, flag,fact, expr, temp;<Font foreground="[255,51,51]">
+result:={};</Font></Font><Font style="Text">
+
+B1: Giai phuong trinh hay he phuong trinh</Font><Font bold="false">
+tapnghiem := [solve(eqns, vars)]; <Font foreground="[255,51,51]"> </Font></Font><Font style="Text">VD: nghiem={{a=0,b=3},{a=1,b=2}}</Font><Font bold="false">
+tapnghiem := Xuly_RootOf(tapnghiem);</Font><Font style="Text">
+
+B2: Loai nghiem RootOf,nghiem am, nghiem phuc</Font><Font bold="false">
+for  nghiem in tapnghiem  do
+     
+      flag := true;
+      for  fact in nghiem  do
+         expr := rhs(fact);
+           
+         if  (nargs = 3 and evalb(Signof(expr) &lt;= 0) = true) or SearchText(&quot;I&quot;, convert(expr, string)) &gt; 0
+              
+            then   flag := false;break;
+         fi;
+      od;
+      
+      if  flag  then  result := {op(result), nghiem};
+      fi;
+     
+   od;<Font foreground="[255,51,51]">
+  
+return result;</Font>    </Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[0,0,255]">end: # MySolve</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1415" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[Subs_Unify] := proc(vars, ex)</Font>
+<Font bold="false" foreground="[0,0,0]"># thay the hop nhat cac bien vao ex</Font><Font bold="false">
+local i, k, temp,j, thaythe, roi, vtemp, v;
+global Fact_Kinds;
+
+   temp := ex; thaythe := {}; roi := {};
+   for i in vars do
+         if Unify_In(i,Fact_Kinds[2]) then
+         for j in Fact_Kinds[3] do
+            if Unify_Fact(i,lhs(j)) then
+               temp := subs(i = rhs(j),temp); 
+               break;
+            fi;
+         od;
+         next;
+         fi;
+
+         vtemp := vars minus {i};
+         for  v in vtemp do
+            if (roi  = {} or not Unify_In(i=v,roi))and Unify_Fact(i,v) then
+                thaythe := thaythe union { i = v};
+                roi  := roi union {i=v}; 
+            fi;     
+         od;              
+         temp := subs(thaythe,temp)      ;   
+    od; 
+return temp; </Font>
+<Font foreground="[0,0,255]">end: #Subs_Unify</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1332" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L1362" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[Get_Values]:=proc(biens)</Font><Font style="Text">
+</Font><Font bold="false" executable="false" foreground="[0,0,0]"># tim gia tri cua biens. biens co the co nhieu gia tri</Font><Font bold="false" foreground="[0,0,0]"> </Font><Font bold="false">
+local get_value,giatridon,cacgiatridon,tachgiatri,
+      bien, values;
+global Fact_Kinds, Obj_Types;
+</Font><Font style="Text">
+       </Font><Font bold="false" foreground="[153,102,255]">get_value:= proc(bien)</Font><Font bold="false">
+      </Font><Font style="Text"># ham tim gia tri cua bien : vidu: bien := a;
+             # Neu a co gia tri cu the (sk3,sk8)--&gt; gia tri
+             # Neu a thuoc sk2 hay sk7 va khong co gt cu the --&gt; &quot;xd&quot;
+             # Neu a khong thuoc sk2,sk3,sk7,sk8 --&gt; &quot;cxd&quot;
+             # Neu a co nhieu gt (vd : a = 2,a = 3)---&gt; {2,3}</Font><Font bold="false">
+      local fact, value, j;
+      value:= {}; 
+      if Unify_In(bien,Fact_Kinds[2]) then
+         value:= value union {&quot;xd&quot;}; 
+      fi;
+      for fact in Fact_Kinds[3]do
+         if Unify_Fact(bien , lhs(fact)) then
+             value:= value union {rhs(fact)};
+         fi;
+      od; 
+      
+      </Font><Font style="Text">#------------------------</Font><Font bold="false">
+      if nops(value) &gt;=2 and member(&quot;xd&quot;,value) then
+         value := value minus {&quot;xd&quot;}; 
+      fi;
+      if nops(value) = 0 then return &quot;cxd&quot;;
+      elif nops(value) = 1 then return op(value);
+      else return value;fi;
+   <Font foreground="[153,102,255]">end: # get_value</Font></Font><Font style="Text">
+</Font><Font bold="false">
+   </Font><Font style="Text">
+       </Font><Font bold="false" foreground="[153,102,255]">giatridon:=proc(giatri)</Font><Font bold="false">
+     </Font><Font style="Text"># ham kiem tra giatri co phai la gia tri don khong
+             # neu giatri khong la gia tri don thi tra ve vi tri 
+             # vi du: giatri: =[1,2,{3,4}]-- gia tri phuc--&gt; return 3;  
+             # vi du: giatri:= [1,2,3]---&gt; gia tri don---&gt; return 0;</Font><Font bold="false">  
+      local i;
+      for i to nops(giatri) do 
+          if type(giatri[i],`set`) then return i;fi;
+      od;
+      return 0;</Font>
+   <Font bold="false" foreground="[153,102,255]">end: # giatridon</Font>  
+
+   <Font bold="false" foreground="[102,102,255]">cacgiatridon:= proc(giatri)</Font><Font bold="false">
+      local gt;
+      for gt in giatri do
+         if giatridon(gt) &lt;&gt; 0 then return false;fi;
+      od; 
+      return true;</Font>
+   <Font bold="false" foreground="[153,102,255]">end : # cacgiatridon</Font>
+
+   <Font bold="false" foreground="[153,102,255]">tachgiatri:= proc(giatri)</Font><Font bold="false">
+      </Font><Font style="Text"># vi du: giatri:=[1,2,{3,4}]---&gt;giatri:=[[1,2,3],[1,2,4],[1,2,5]]</Font><Font bold="false">
+      local k,il, temp, seq1, seq2, giatritemp;
+      giatritemp:=giatri; 
+      while not cacgiatridon(giatritemp) do
+	 for il to nops(giatritemp) do
+            k := giatridon(giatritemp[il]);
+            if k &lt;&gt; 0 then
+             seq1:= seq(giatritemp[il][j],j=1..k-1);
+             seq2:= seq(giatritemp[il][j],j=k+1..nops(giatritemp[il]));
+             temp:=map(s-&gt;[seq1,s,seq2],giatritemp[il][k]);
+             giatritemp:= subs(giatritemp[il]=op(temp),giatritemp);
+             break;
+            fi; 
+         od; 
+      od;  
+      return giatritemp;
+   <Font foreground="[153,102,255]">end: # tachgiatri</Font></Font><Font style="Text">
+
+</Font><Font bold="false" executable="false" foreground="[0,0,0]"># Get_Values's body</Font><Font bold="false">
+if type(biens,`list`) then </Font><Font style="Text"># tim gia tri cua nhieu bien cung luc</Font><Font bold="false">
+   values:= [];
+   for bien in biens do
+      values:= [op(values),get_value(bien)];
+   od;
+  </Font><Font style="Text"># neu trong values co gia tri phuc thi tach thanh cac gia tri don
+      # vi du: values:=[1,2,{3,4}]---&gt;values:=[[1,2,3],[1,2,4],[1,2,5]]</Font><Font bold="false">
+   if giatridon(values) &lt;&gt; 0 then
+      values:= {op(tachgiatri([values]))};
+   fi;
+else </Font><Font style="Text"># tim gia tri cua mot bien</Font><Font bold="false">
+     values:= get_value(biens);
+fi; 
+return values;</Font><Font foreground="[153,102,255]">
+</Font><Font foreground="[0,0,255]">end: # Get_Values</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1355" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">DOC DE BAI</Text-field></Title><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1384" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="code" labelreference="L1388" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DIENMOTCHIEU[Deduce_FromType]:=proc(DoanMach,DoiTuong,Loai)
+   global Sol, Fact_Kinds,Fact_Set;
+   local k,l,m,temp,str,str1,temp1,temp2,result,
+         NoiTiep, SSong;
+
+   NoiTiep:=[_X.i = _Y.i];
+   SSong:=[_X.U = _Y.U];
+
+   temp1:=0;temp2:=0; str1:=&quot;&quot;; result:={};
+   if Loai = &quot;NOITIEP&quot; then
+     for k from 1 to nops(DoiTuong) - 1 do
+       for l from k+1 to nops(DoiTuong) do
+            temp:=subs({_X = DoiTuong[k], _Y = DoiTuong[l]},NoiTiep[1]);
+
+            if type(DoiTuong[k],set) or type(DoiTuong[k],list) then
+                str:=&quot;&quot;;
+                for m from 1 to nops(DoiTuong[k]) do
+                  str:=cat(str,DoiTuong[k][m]);
+                od;
+            else
+                str:=cat(&quot;&quot;,op(DoiTuong[k]));
+            fi;
+            str:=cat(str,&quot;, &quot;);
+
+            if type(DoiTuong[l],set) or type(DoiTuong[l],list) then
+                for m from 1 to nops(DoiTuong[l]) do
+                  str:=cat(str,DoiTuong[l][m]);
+                od;
+            else
+                str:=cat(str,op(DoiTuong[l]));
+            fi;
+            str:=cat(str,&quot; mac noi tiep&quot;);
+
+            Fact_Kinds[4]:={op(Fact_Kinds[4]),temp};
+            Fact_Set:={op(Fact_Set),temp};
+            Sol:=[op(Sol),[&quot;Deduce_Rules&quot;,str,{},{temp}]];
+
+            result:={op(result),temp};
+       od;
+    
+       temp:=subs({_X = DoanMach, _Y = DoiTuong[k]},NoiTiep[1]);
+       str:=&quot;Mach noi tiep.&quot;;
+       Fact_Kinds[4]:={op(Fact_Kinds[4]),temp};
+       Fact_Set:={op(Fact_Set),temp};
+       Sol:=[op(Sol),[&quot;Deduce_Rules&quot;,str,{},{temp}]];
+       result:={op(result),temp};
+
+       temp1:=temp1+DoiTuong[k].U;
+       temp2:=temp2+DoiTuong[k].R;
+       if type(DoiTuong[k],set) or type(DoiTuong[k],list) then 
+          for m from 1 to nops(DoiTuong[k]) do
+              str1:=cat(str1,DoiTuong[k][m]);
+          od;
+       else
+          str1:=cat(str1,DoiTuong[k]);
+       fi;
+       str1:=cat(str1,&quot;, &quot;);
+
+     od;
+       if type(DoiTuong[k],set) or type(DoiTuong[k],list) then 
+          for m from 1 to nops(DoiTuong[k]) do
+              str1:=cat(str1,DoiTuong[k][m]);
+          od;
+       else
+          str1:=cat(str1,op(DoiTuong[k]));
+       fi;
+       str1:=cat(str1,&quot; mac noi tiep.&quot;);
+
+       temp:=subs({_X = DoanMach, _Y = DoiTuong[k]},NoiTiep[1]);
+       Fact_Kinds[4]:={op(Fact_Kinds[4]),temp};
+       Fact_Set:={op(Fact_Set),temp};
+       Sol:=[op(Sol),[&quot;Deduce_Rules&quot;,str1,{},{temp}]];
+       result:={op(result),temp};
+
+       temp1:=temp1+DoiTuong[k].U; 
+       temp1:=DoanMach.U = temp1;        
+       Fact_Kinds[5]:={op(Fact_Kinds[5]),temp1};
+       Fact_Set:={op(Fact_Set),temp1};
+       Sol:=[op(Sol),[&quot;Deduce_Rules&quot;,str1,{},{temp1}]];
+
+       temp2:=temp2+DoiTuong[k].R;
+       temp2:=DoanMach.R = temp2;
+       Fact_Kinds[5]:={op(Fact_Kinds[5]),temp2};
+       Fact_Set:={op(Fact_Set),temp2};
+       Sol:=[op(Sol),[&quot;Deduce_Rules&quot;,str,{},{temp2}]];
+
+       result:={op(result),temp1,temp2};
+
+   elif Loai = &quot;SONGSONG&quot; then
+     for k from 1 to nops(DoiTuong) - 1 do 
+       for l from k+1 to nops(DoiTuong) do
+            temp:=subs({_X = DoiTuong[k], _Y = DoiTuong[l]},SSong[1]);   
+
+            if type(DoiTuong[k],set) or type(DoiTuong[k],list) then
+                str:=&quot;&quot;;
+                for m from 1 to nops(DoiTuong[k]) do
+                  str:=cat(str,DoiTuong[k][m]);
+                od;
+            else
+                str:=cat(&quot;&quot;,op(DoiTuong[k]));
+            fi;
+            str:=cat(str,&quot;, &quot;);
+
+            if type(DoiTuong[l],set) or type(DoiTuong[l],list) then
+                for m from 1 to nops(DoiTuong[l]) do
+                  str:=cat(str,DoiTuong[l][m]);
+                od;
+            else
+                str:=cat(str,op(DoiTuong[l]));
+            fi;
+            str:=cat(str,&quot; mac song song&quot;);
+
+            Sol:=[op(Sol),[&quot;Deduce_Rules&quot;,str,{},{temp}]];
+            result:={op(result),temp};
+       od;
+
+       temp:=subs({_X = DoanMach, _Y = DoiTuong[k]},SSong[1]);
+       str:=&quot; Mach song song.&quot;;
+       Fact_Kinds[4]:={op(Fact_Kinds[4]),temp};
+       Fact_Set:={op(Fact_Set),temp};
+       Sol:=[op(Sol),[&quot;Deduce_Rules&quot;,str,{},{temp}]];
+       result:={op(result),temp};
+       
+       temp1:=temp1+DoiTuong[k].i;
+       temp2:=temp2+1/(DoiTuong[k].R);
+
+       if type(DoiTuong[k],set) or type(DoiTuong[k],list) then 
+          for m from 1 to nops(DoiTuong[k]) do
+              str1:=cat(str1,DoiTuong[k][m]);
+          od;
+       else
+          str1:=cat(str1,DoiTuong[k]);
+       fi;
+       str1:=cat(str1,&quot;, &quot;);
+       
+     od;
+
+       if type(DoiTuong[k],set) or type(DoiTuong[k],list) then 
+          for m from 1 to nops(DoiTuong[k]) do
+              str1:=cat(str1,DoiTuong[k][m]);
+          od;
+       else
+          str1:=cat(str1,op(DoiTuong[k]));
+       fi;
+       str1:=cat(str1,&quot; mac song song.&quot;);
+
+       temp:=subs({_X = DoanMach, _Y = DoiTuong[k]},SSong[1]);
+       Fact_Kinds[4]:={op(Fact_Kinds[4]),temp};
+       Fact_Set:={op(Fact_Set),temp};
+       Sol:=[op(Sol),[&quot;Deduce_Rules&quot;,str1,{},{temp}]];
+       result:={op(result),temp};
+
+       temp1:=temp1+DoiTuong[k].i; 
+       temp1:=DoanMach.i = temp1;        
+       Fact_Kinds[5]:={op(Fact_Kinds[5]),temp1};
+       Fact_Set:={op(Fact_Set),temp1};
+       Sol:=[op(Sol),[&quot;Deduce_Rules&quot;,str1,{},{temp1}]];
+
+       temp2:=temp2+1/(DoiTuong[k].R);
+       temp2:=1/(DoanMach.R) = temp2;
+       Fact_Kinds[5]:={op(Fact_Kinds[5]),temp2};
+       Fact_Set:={op(Fact_Set),temp2};
+       Sol:=[op(Sol),[&quot;Deduce_Rules&quot;,str,{},{temp2}]];
+
+       result:={op(result),temp1,temp2};
+
+   else
+       Fact_Kinds[4]:={op(Fact_Kinds[4]),DoanMach.U=DoiTuong[1].U,DoanMach.i=DoiTuong[1].i, DoanMach.R=DoiTuong[1].R};
+       Fact_Set:={op(Fact_Set),DoanMach.U=DoiTuong[1].U,DoanMach.i=DoiTuong[1].i, DoanMach.R=DoiTuong[1].R};
+       result:={op(result),DoanMach.U=DoiTuong[1].U,DoanMach.i=DoiTuong[1].i, DoanMach.R=DoiTuong[1].R};
+   fi;
+
+   return result;
+end proc: #Deduce_FromType</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1386" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1390" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DIENMOTCHIEU[Deduce_FromStruct]:=proc(DoanMach,Struct,Objects)
+   global ObjNets, ObjNet_Facts;
+   local DoiTuong, SuKien, o,t, result;
+
+   result:={};
+   if type(Struct,set) then
+      DoiTuong:=[op(Struct)];
+      SuKien:=Deduce_FromType(DoanMach,DoiTuong,&quot;SONGSONG&quot;);
+      result:={op(result),op(SuKien)};
+
+      for o in DoiTuong do
+         if not(o in Objects) then
+               if member(o,ObjNets,'t') and ObjNet_Facts[t] &lt;&gt; {} then
+                   SuKien:=ObjNet_Facts[t];
+                   result:={op(result),op(SuKien)};
+               else
+                   SuKien:=Deduce_FromStruct(o,o,Objects);
+                   result:={op(result),op(SuKien)};
+               fi;
+         fi;
+      od;
+      
+      return result;
+     
+   elif type(Struct,list) then
+      if nops(Struct) = 2 and not(Struct[1] in Objects) and not(Struct[2] in Objects) then
+<Font bold="false" foreground="[0,0,0]">             # Do nothing</Font>
+      else
+         DoiTuong:=[op(Struct)];
+         SuKien:=Deduce_FromType(DoanMach,DoiTuong,&quot;NOITIEP&quot;);
+         result:={op(result),op(SuKien)};
+
+         for o in DoiTuong do
+            if not(o in Objects) then
+               if member(o,ObjNets,'t') and ObjNet_Facts[t] &lt;&gt; {} then
+                   SuKien:=ObjNet_Facts[t];
+                   result:={op(result),op(SuKien)};
+               else
+                   SuKien:=Deduce_FromStruct(o,o,Objects);
+                   result:={op(result),op(SuKien)};
+               fi;
+            fi;
+         od;         
+      fi;
+
+      return result;
+
+   else  # Struct khong phai la` Set hay list
+      DoiTuong:=[Struct];
+      SuKien:=Deduce_FromType(DoanMach,DoiTuong,&quot;&quot;);
+      result:={op(result),op(SuKien)};
+
+      return result;
+   fi;
+end proc:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1387" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DIENMOTCHIEU[Deduce_From_ObjNetStruct]:=proc()
+   global ObjNets, ObjNet_Struct, ObjNet_Facts, ObjNet_Obj;
+   local fact,k;
+
+   for k from 1 to nops(ObjNet_Struct) do
+       fact:=Deduce_FromStruct(ObjNets[k],ObjNet_Struct[k],ObjNet_Obj[k]);
+       ObjNet_Facts[k]:={op(ObjNet_Facts[k]),op(fact)};
+   od;
+
+end proc:</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1389" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1385" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DIENMOTCHIEU[ReadHypothesis]:=proc(GiaThiet)
+   global Objs,      <Font bold="false" foreground="[0,0,0]"># Cac' doi tuong. VD: [R1,R2,R3]</Font>
+          Obj_Types, <Font bold="false" foreground="[0,0,0]"># Kieu doi tuong. VD: [&quot;DAYDAN&quot;,&quot;DIENTRO&quot;,&quot;DAYDAN&quot;]</Font>
+          Obj_Facts, <Font bold="false" foreground="[0,0,0]"># Cac sk cua Object. VD:[{R1.R=5},{R2.I=4},{R3.U}=1]</Font>
+          ObjNets,   <Font bold="false" foreground="[0,0,0]"># Cac' doan mach. VD: [[A,M],[M,B],[A,B]];</Font>
+          ObjNet_Struct,<Font bold="false" foreground="[0,0,0]"># Cau truc doan mach.VD: [R1,{R2,R3},[[A,M],[M,B]]]</Font>
+          ObjNet_Facts, <Font bold="false" foreground="[0,0,0]"># Tinh chat suy ra tu cong thuc doan mach.</Font>
+          ObjNet_Obj, <Font bold="false" foreground="[0,0,0]"># Cac doi tuong cua doan mach.</Font>
+          Facts,   <Font bold="false" foreground="[0,0,0]"># Cac su kien con lai.</Font>
+
+          Fact_Kinds, Fact_Set; 
+
+   local fact,k,t,j,GT,DT,DT_Net,Tap,VP;
+
+   Init();
+
+   GT:=GiaThiet[1]; 
+   for t from 1 to nops(GT) do    
+      DT_Net:=lhs(GT[t]);    
+      ObjNets:=[op(ObjNets),DT_Net];
+      VP:=rhs(GT[t]);
+      DT:=VP[2]; 
+      ObjNet_Struct:=[op(ObjNet_Struct),VP[3]];
+      if VP[1]=0 then 
+        Tap:={};
+        for j from 1 to nops(DT) do
+          if not(DT[j][1] in Objs) then
+            Objs:=[op(Objs),DT[j][1]];
+            Obj_Types:=[op(Obj_Types),DT[j][2]];
+            Tap:={op(Tap),DT[j][1]};
+          fi;
+        od;
+      elif VP[1]=1 then
+        Tap:=VP[2]; 
+      fi; 
+      ObjNet_Obj:=[op(ObjNet_Obj),Tap];
+   od;
+
+   for k from 1 to nops(Objs) do
+      fact:=[Objs[k],Obj_Types[k]];
+      Fact_Kinds[1]:={op(Fact_Kinds[1]),fact};
+      Fact_Set:={op(Fact_Set),fact};
+   od;
+
+   for k from 1 to nops(Objs) do
+      Obj_Facts:=[op(Obj_Facts),{}];
+   od;
+
+   for k from 1 to nops(ObjNets) do
+      ObjNet_Facts:=[op(ObjNet_Facts),{}];
+   od;
+
+   Deduce_From_ObjNetStruct();
+
+   for fact in GiaThiet[2] do
+       k:=Kind_Fact(fact);
+       Fact_Kinds[k]:=Union_Unify(Fact_Kinds[k],{fact});
+       Fact_Set:= {op(Fact_Set),fact};
+
+       if k = 3 then
+          if member(op(1,lhs(fact)),Objs,'t') then
+              Obj_Facts[t]:={op(Obj_Facts[t]),fact};
+          elif member(op(1,lhs(fact)),ObjNets,'t') then
+              ObjNet_Facts[t]:={op(ObjNet_Facts[t]),fact};
+          fi;
+
+       else
+          Facts:={op(Facts),fact};
+       fi;
+   od;
+
+   if nops(GiaThiet) = 3 and nops(GiaThiet[3]) &gt; 0 then
+       Fact_Kinds[3]:= {op(Fact_Kinds[3]),op(GiaThiet[3])};
+       Fact_Set:= {op(Fact_Set),op(GiaThiet[3])};
+   fi;
+
+   Deduce_From3s();
+ 
+end proc: # ReadHypothesis</Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">CAC BUOC GIAI</Text-field></Title><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1417" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group labelreference="L1421" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[Deduce_From3]:=proc(fact3)</Font><Font bold="true" style="Text">
+</Font><Font bold="false" executable="false" foreground="[0,0,0]"># sinh 1 sk2 tu 1 sk3. Neu nhieu sk3 cung sinh mot sk2 thi se gom chung vao mot buoc giai trong Sol. Vi du: {a = 2, a =3} cung sinh ra {a} nen ta co [&quot;Deduce_From3s&quot;,[],{a = 2, a =3}, {a}].</Font>
+<Font bold="false">local fact2;
+global Fact_Kinds, Fact_Set, Sol, flag; 
+
+   fact2:=lhs(fact3);
+   if not Unify_In(fact2, Fact_Kinds[2]) and not type(rhs(fact3),'symbol') then 
+      Fact_Kinds[2]:={op(Fact_Kinds[2]),fact2};
+      Fact_Set:=Fact_Set union {fact2};
+      Sol:=[op(Sol),[&quot;Deduce_From3s&quot;,[],{fact3},{fact2}]];
+   fi;  
+   flag:= true;  </Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[0,0,255]">end proc:  #  Deduce_From3</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1419" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY+LUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZDLUYsNi1RKCZtaW51cztGJ0YvRjJGNUY3RjlGO0Y9Rj9GQUZERkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGLw==">NiI=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1420" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[Deduce_From3s]:=proc()</Font>
+<Font bold="false" executable="false" foreground="[0,0,0]"># Sinh cac sk2 tu cac sk3</Font><Font bold="false" foreground="[0,0,255]"> </Font>
+<Font bold="false">local fact3;
+global Fact_Kinds, DF3;  
+
+   for fact3 in Fact_Kinds[3] do
+      if not member(fact3, DF3) then
+         Deduce_From3(fact3);
+         DF3:= DF3 union {fact3};
+      fi;
+   od;
+</Font>
+<Font foreground="[0,0,255]">end proc:  #  Deduce_From3s
+</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="code" labelreference="L1418" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DIENMOTCHIEU[Deduce_OhmTheorem]:=proc(SuKien)
+   global flag,Sol,Fact_Set,Fact_Kinds;   
+   local k,t,Ten,DoiTuong,TuongUng,replace,Ohm,fact,temp,
+         DienTro,Hdt,DongDien;
+
+   DoiTuong:=[]; TuongUng:=[];
+   for k from 1 to nops(SuKien) do
+       if Kind_Fact(SuKien[k]) = 3 then
+          Ten:=op(1,lhs(SuKien[k]));
+          if nops([op(lhs(SuKien[k]))]) = 2 and op(2,lhs(SuKien[k])) in {i,U,R} then
+            if member(Ten,DoiTuong,'t') then
+                 TuongUng[t]:={op(TuongUng[t]),SuKien[k]};
+            else
+                 DoiTuong:=[op(DoiTuong),Ten] ;
+                 TuongUng:=[op(TuongUng),{SuKien[k]}];
+            fi;
+          fi;
+       fi;
+   od;
+
+   for k from 1 to nops(DoiTuong) do
+       if nops(TuongUng[k]) = 2 then
+           Ohm:=DoiTuong[k].i=DoiTuong[k].U/(DoiTuong[k].R);
+           replace:=subs(TuongUng[k],Ohm);
+           fact:=solve(replace,Set_Vars(replace));
+
+           Fact_Kinds[3]:=Fact_Kinds[3] union fact;
+           Fact_Set:=Fact_Set union fact;
+           Sol:=[op(Sol),[&quot;Dinh luat Ohm&quot;,{DoiTuong[k].i=DoiTuong[k].U/(DoiTuong[k].R)},TuongUng[k],fact]];
+           flag:=true;
+
+       elif nops(TuongUng[k]) = 1 then
+           Ohm:=DoiTuong[k].i=DoiTuong[k].U/(DoiTuong[k].R);
+
+           if not Unify_In(Ohm,Fact_Kinds[5]) then
+              DongDien:={};
+              Hdt:={};
+              DienTro:={};
+
+              for fact in Fact_Kinds[5] do
+                if DoiTuong[k].i = lhs(fact) then
+                  if  DongDien = {} or nops(Set_Vars(fact)) &lt; nops(Set_Vars(DongDien[1])) then
+                      DongDien:={fact};
+                  fi;
+                fi;
+
+                if DoiTuong[k].U = lhs(fact) then
+                  if Hdt = {} or nops(Set_Vars(fact)) &lt; nops(Set_Vars(Hdt[1])) then
+                      Hdt:={fact};
+                  fi;
+                fi;
+
+                if DoiTuong[k].R = lhs(fact) then
+                  if DienTro = {} or nops(Set_Vars(fact)) &lt; nops(Set_Vars(DienTro[1])) then
+                      DienTro:={fact};
+                  fi;
+                fi;
+
+              od;
+
+              temp:=TuongUng[k] union DongDien;
+              replace:=subs(temp,Ohm);
+              Fact_Kinds[5]:=Fact_Kinds[5] union {replace};
+              Fact_Set:=Fact_Set union {replace};
+              Sol:=[op(Sol),[&quot;Dinh luat Ohm&quot;,{DoiTuong[k].i=DoiTuong[k].U/(DoiTuong[k].R)},temp,{replace}]];
+              if not Unify_In(replace,Fact_Kinds[5]) then flag:=true;fi;
+
+              temp:=TuongUng[k] union Hdt;
+              replace:=subs(temp,Ohm);
+              Fact_Kinds[5]:=Fact_Kinds[5] union {replace};
+              Fact_Set:=Fact_Set union {replace};
+              Sol:=[op(Sol),[&quot;Dinh luat Ohm&quot;,{DoiTuong[k].i=DoiTuong[k].U/(DoiTuong[k].R)},temp,{replace}]];
+              if not Unify_In(replace,Fact_Kinds[5]) then flag:=true;fi;
+
+              temp:=TuongUng[k] union DienTro;
+              replace:=subs(temp,Ohm);
+              Fact_Kinds[5]:=Fact_Kinds[5] union {replace};
+              Fact_Set:=Fact_Set union {replace};
+              Sol:=[op(Sol),[&quot;Dinh luat Ohm&quot;,{DoiTuong[k].i=DoiTuong[k].U/(DoiTuong[k].R)},temp,{replace}]];
+              if not Unify_In(replace,Fact_Kinds[5]) then flag:=true;fi;
+
+           fi;
+       fi;
+
+   od; 
+
+   Deduce_From3s();
+end proc: # Deduce_OhmTheorem
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1422" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DIENMOTCHIEU<Font foreground="[0,0,255]">[Deduce_From43s]:=proc()</Font><Font bold="true" style="Text">
+</Font><Font bold="false" executable="false" foreground="[0,0,0]"># sinh sk3s tu sk4s va sk3s bang cach the sk3s vao sk4s</Font><Font bold="false">
+local fact4,fact3,news,k,SuKien;
+global Fact_Kinds, DF43, flag, Fact_Set, Sol;
+
+   SuKien:= Fact_Kinds[3] minus DF43;
+   for fact3 in SuKien do
+       for fact4 in Fact_Kinds[4] do
+
+            news:={};
+                       
+	  if Unify_Fact(lhs(fact3), lhs(fact4)) then
+               news:={subs(lhs(fact3) = rhs(fact4),fact3)};       
+            elif Unify_Fact(lhs(fact3), rhs(fact4)) then
+               news:={subs(lhs(fact3) = lhs(fact4),fact3)};
+            fi;
+
+            if news &lt;&gt; {}  then
+               <Font foreground="[255,51,51]">k :=  Kind_Fact(news[1]);
+               if  k&gt;=1 and k&lt;=11 and 
+                   not Unify_In(news[1],Fact_Kinds[k]) then</Font>
+                 Fact_Kinds[k]:= {op(Fact_Kinds[k]),op(news)}; 
+                 Fact_Set:= Fact_Set union news; 
+                 Sol:=[op(Sol),[&quot;Deduce_From43s&quot;,[],{fact4,fact3},news]]:               
+                 flag:= true; 
+               fi; 
+            fi; 
+         od; 
+
+         DF43:=DF43 union {fact3};
+   od; 
+</Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[0,0,255]">end: # Deduce_From43s
+</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1423" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,255]">DIENMOTCHIEU[Deduce_From53s]:=proc()</Font><Font bold="true" style="Text">
+ </Font><Font bold="false" executable="false" foreground="[0,0,0]"># Day la buoc giai suy ra su kien moi loai 3, 4, 5 tu 1 su kien 5  va nhieu su kien 3 bang cach the cac su kien 3 vao su kien 5</Font>
+<Font bold="false">local fact5,fact3,news, vars5,f, k, temp, fact3s ;
+global Fact_Kinds,Fact_Set,Sol,flag,DF53;
+
+
+   for fact5 in Fact_Kinds[5] do
+      if member(fact5,DF53) then next;fi; 
+      news:=fact5; 
+      vars5:= Set_Vars(fact5);
+      fact3s :={};
+      for fact3 in Fact_Kinds[3] do
+         for f in vars5 do
+	     if Unify_Fact(lhs(fact3), f) then
+                news:= subs(f = rhs(fact3),news);    
+                fact3s := fact3s union {fact3};         
+             fi;
+         od;    
+      od;
+   
+    temp := Set_Vars(news);
+      if nops(temp)=1 then 
+        news := MySolve(news,temp,1);
+        if news &lt;&gt; {} then 
+           news := news[1][1];
+        fi;
+
+      elif nops(temp) = 2 then
+        if a in temp then
+           k:=Kind_Fact(news);
+           if k&gt;=1 and k&lt;=5 then
+             Fact_Kinds[k]:= {op(Fact_Kinds[k]),news}; 
+             Fact_Set:= Fact_Set union {news}; 
+  </Font>         Sol:=[op(Sol),[&quot;Deduce_From53s&quot;,[],{fact5,op(fact3s)},{news}]]:
+             flag:= true; <Font bold="false">
+           fi;
+
+        elif news &lt;&gt; (lhs(fact5) - rhs(fact5) = 0) and not(news in Fact_Kinds[5]) then
+           Fact_Kinds[5]:= {op(Fact_Kinds[5]),news}; 
+           Fact_Set:= Fact_Set union {news}; 
+           Sol:=[op(Sol),[&quot;Deduce_From53s&quot;,[],{fact5,op(fact3s)},{news}]]:            flag:= true; 
+        fi;             
+      fi;   
+   
+    temp := Set_Vars(news);
+      if nops(Set_Vars(temp)) = 1  then
+
+               DF53:= DF53 union {fact5};
+               <Font foreground="[255,51,51]">k :=  Kind_Fact(news);
+               if  k&gt;=1 and k&lt;=11 and 
+                   not Unify_In(news,Fact_Kinds[k]) then</Font>
+                 Fact_Kinds[k]:= {op(Fact_Kinds[k]),news}; 
+                 Fact_Set:= Fact_Set union {news}; 
+                 Sol:=[op(Sol),[&quot;Deduce_From53s&quot;,[],{fact5,op(fact3s)},{news}]]:                
+                 flag:= true; 
+               fi; 
+      fi; 
+   od;  
+
+   Deduce_From3s();
+   </Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[0,0,255]">end proc: # Deduce_From53s</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1428" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1429" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation><Font foreground="[0,0,255]">DIENMOTCHIEU[Deduce_From54s]:=proc()</Font><Font bold="true" style="Text">
+ </Font><Font bold="false" executable="false" foreground="[0,0,0]"># Day la buoc giai suy ra su kien moi loai 3 tu 2 su kien 5  va 1 su kien 4 bang cach the cac su kien 5 vao su kien 4</Font>
+<Font bold="false">local fact51,vars51,fact52,vars52,fact4,bien,
+      left,right,news, expr1,expr2, fact,k,j ;
+global Fact_Kinds,Fact_Set,Sol,flag,DF54;
+
+
+ for k from 1 to nops(Fact_Kinds[5]) - 1  do
+     fact51:=Fact_Kinds[5][k];
+     vars51:=Set_Vars(fact51);
+     if nops(vars51) &lt;&gt; 2 then next;fi;
+             <Font foreground="[0,0,0]"># nops(vars51) = 2</Font>
+     for j from k+1 to nops(Fact_Kinds[5]) do
+        fact52:=Fact_Kinds[5][j];
+        vars52:=Set_Vars(fact52);
+        if nops(vars52) = 2 then
+          for fact4 in Fact_Kinds[4] do
+            if member(fact4,DF54) or lhs(fact4) = rhs(fact4) then next;fi;
+</Font>            left:=lhs(fact4); right:=rhs(fact4);<Font bold="false">
+            if (left in vars51) and (right in vars52) and nops(vars51 union vars52) = 3 then
+                     bien:=vars51 minus {left};
+ 
+                     expr1:=solve(fact51,left);
+                     expr2:=solve(fact52,right);
+                     bien:=solve(expr1=expr2,bien);
+                     if nops(bien) = 1 then bien:=bien[1];fi;
+
+                     if nops(Set_Vars(bien)) = 1 then
+                       fact:={fact51,fact52,fact4};                     
+                       Fact_Kinds[3]:= {op(Fact_Kinds[3]),bien}; 
+                       Fact_Set:= Fact_Set union {bien}; 
+                       Sol:=[op(Sol),[&quot;Deduce_From54s&quot;,[],fact,{bien}]]: 
+      </Font>                 flag:= true;<Font bold="false">
+
+                       DF54:=DF54 union {fact4};
+                     fi;
+
+             elif (left in vars52) and (right in vars51) and nops(vars51 union vars52) = 3 then
+                     bien:=vars52 minus {left};
+ 
+                     expr1:=solve(fact52,left);
+                     expr2:=solve(fact51,right);
+                     bien:=solve(expr1=expr2,bien)[1];
+                     if nops(bien) = 1 then bien:=bien[1];fi;
+
+                     if nops(Set_Vars(bien)) = 1 then
+                       fact:={fact51,fact52,fact4};                     
+                       Fact_Kinds[3]:= {op(Fact_Kinds[3]),bien}; 
+                       Fact_Set:= Fact_Set union {bien}; 
+                       Sol:=[op(Sol),[&quot;Deduce_From54s&quot;,[],fact,{bien}]]: 
+      </Font>                 flag:= true;<Font bold="false">
+
+                       DF54:=DF54 union {fact4};
+                     fi;
+                  
+             fi;
+          od; # vong` lap Fact_Kinds[4] 
+        fi;
+     od;
+od;
+
+
+Deduce_From3s();
+</Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[0,0,255]">end proc: # Deduce_From54s
+</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1430" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation><Font foreground="[0,0,255]">DIENMOTCHIEU[Deduce_FromDAYDAN]:=proc(DoiTuong)</Font><Font bold="true" style="Text">
+ </Font><Font bold="false" executable="false" foreground="[0,0,0]"># Day la buoc giai suy ra su kien moi loai 3 tu 2 su kien 5  va 1 su kien 4 bang cach the cac su kien 5 vao su kien 4</Font>
+<Font bold="false">local KiemTra, SameKinds,FindInFact3,
+      fact51,vars51,fact52,vars52,temp,temp1,bien,
+      GiaTri,vars,news, news1,fact,dem,loaibot,o,k,j ;
+global Fact_Kinds,Fact_Set,Sol,flag,DF5;
+
+KiemTra:=proc(TapBien)
+    local k;
+    for k in TapBien do
+       if nops([op(k)]) = 2 and op(2,k) in {m,D,R,p,l,S} then next;fi;
+       return false;
+    od;
+    return true;
+end:
+
+SameKinds:=proc(SK1,SK2) 
+  # Kiem tra co' cung` loai. cong thuc bang cach kiem tra tap con.
+    local k,temp1,temp2,Tap1,Tap2,fact1,fact2;
+    
+    Tap1:=Set_Vars(SK1);
+    Tap2:=Set_Vars(SK2);
+
+    temp1:={};
+    for k in Tap1 do
+       if nops([op(k)]) = 2 and op(2,k) in {m,D,R,p,l,S} then 
+            temp1:=temp1 union {op(2,k)};
+       fi;
+</Font>    <Font bold="false">od;
+
+    temp2:={};
+    for k in Tap2 do
+       if nops([op(k)]) = 2 and op(2,k) in {m,D,R,p,l,S} then 
+            temp2:=temp2 union {op(2,k)};
+       fi;
+</Font>    <Font bold="false">od;</Font>
+<Font bold="false">
+    if temp1 subset temp2 or temp2 subset temp1 then
+       for fact1 in Tap1 do
+          for fact2 in Tap2 do
+              if Unify_In(fact1=fact2,Fact_Kinds[4]) then
+<Font foreground="[0,0,0]">                     # R = ...  ;  1/R = ....</Font>
+                  if fact1 in Set_Vars(numer(lhs(SK1))) and                fact2 in Set_Vars(denom(lhs(SK2))) then return false; fi;
+                  if fact1 in Set_Vars(denom(lhs(SK1))) and                fact2 in Set_Vars(numer(lhs(SK2))) then return false; fi;
+                  if fact1 in Set_Vars(numer(rhs(SK1))) and                fact2 in Set_Vars(denom(rhs(SK2))) then return false; fi;
+                  if fact1 in Set_Vars(denom(rhs(SK1))) and                fact2 in Set_Vars(numer(rhs(SK2))) then return false; fi;
+              fi;
+          od;
+       od;
+
+       return true;
+
+    else return false;
+    fi;
+end:
+
+FindInFact3:=proc(fact) # Tim trong su kien loai 3
+   local fact3;
+   for fact3 in Fact_Kinds[3] do
+      if fact = lhs(fact3) then return true;fi;
+   od;
+   return false;
+end proc:
+
+#trace(KiemTra);
+#trace(SameKinds);
+
+Fact_Kinds[5];
+
+for k from 1 to nops(Fact_Kinds[5]) - 1  do
+     fact51:=Fact_Kinds[5][k];
+     vars51:=Set_Vars(fact51);
+
+     if type(rhs(fact51),`+`) or not KiemTra(vars51) then next;fi;
+     if fact51 in DF5 then next; fi;
+
+     for j from k+1 to nops(Fact_Kinds[5]) do
+      fact52:=Fact_Kinds[5][j];
+      vars52:=Set_Vars(fact52);
+
+      if not SameKinds(fact51,fact52) then next;fi;
+      if not KiemTra(vars52) then next;fi;
+      if lhs(fact52) = lhs(fact51) or (not type(lhs(fact51),numeric) and not type(lhs(fact52),numeric) and type(lhs(fact52)*lhs(fact51),numeric)) then next;fi;
+        
+        news:=lhs(fact51)/lhs(fact52)=rhs(fact51)/rhs(fact52);
+        GiaTri:={}; fact:={fact51,fact52};bien:=1;
+        for temp in vars51 do
+           for temp1 in vars52 do
+               if Unify_In(temp=temp1,Fact_Kinds[4]) then
+                   fact:={op(fact),temp=temp1};
+                   bien:=bien+1;
+                   GiaTri:={op(GiaTri),temp=bien,temp1=bien};
+               fi;
+           od;
+        od;
+
+        news:=subs(GiaTri,news);
+        vars:=Set_Vars(news);
+        if nops(vars) = 1 then
+            news:=MySolve(news,vars);
+            Fact_Kinds[3]:= Fact_Kinds[3] union news[1]; 
+            Fact_Set:= Fact_Set union news[1]; 
+            Sol:=[op(Sol),[&quot;Lap ti so cua cong thuc day dan&quot;,[],fact,news[1]]]:
+
+            Deduce_From3(news[1][1]);
+            flag:=true;
+
+        elif nops(vars) = 2 then
+            Fact_Kinds[5]:= {op(Fact_Kinds[5]),news}; 
+            Fact_Set:= Fact_Set union {news}; 
+            Sol:=[op(Sol),[&quot;Lap ti so cua cong thuc day dan&quot;,[],fact,{news}]]:
+
+            if Set_Vars(DoiTuong) = vars then
+             Fact_Kinds[2]:= {op(Fact_Kinds[2]),DoiTuong}; 
+             Fact_Set:= Fact_Set union {DoiTuong};
+             Sol:=[op(Sol),[&quot;Deduce_From3s&quot;,[],{news},{DoiTuong}]]: 
+    
+            else                          
+             fact:=vars[2]=a;
+             if not FindInFact3(lhs(fact)) then
+                news1:=solve(news,{vars[1]});
+                news1:=subs({fact},news1)[1];
+                Fact_Kinds[3]:= {op(Fact_Kinds[3]),fact,news1};
+                Fact_Set:={op(Fact_Set),fact,news1};
+                Sol:=[op(Sol),[&quot;Dat bang hang so&quot;,[],{},{fact}],[&quot;Deduce_From53s&quot;,[],{fact,news},{news1}]]:
+
+
+             fi;
+
+            fi;            
+
+            flag:=true;
+
+        elif nops(vars) &gt; 2 then
+            dem:=0; loaibot:=0;
+            for o in vars do
+               if o = a then loaibot:=loaibot+1;
+               elif  FindInFact3(o) then dem:=dem+1;
+               fi;
+            od;                         
+           
+            if (nops(vars) - loaibot) - dem &lt;=3 then
+              if lhs(news) &lt;&gt; lhs(fact51) and lhs(news)&lt;&gt;lhs(fact52) then
+                Fact_Kinds[5]:= {op(Fact_Kinds[5]),news}; 
+                Fact_Set:= Fact_Set union {news}; 
+                Sol:=[op(Sol),[&quot;Lap ti so cua cong thuc day dan&quot;,[],fact,{news}]]:
+
+                flag:=true;    
+              fi;
+            fi;
+        fi;       
+     od;
+     DF5:={op(DF5),fact51};   
+od;</Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[0,0,255]">end proc: # Deduce_FromDAYDAN</Font></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">HAM TINH TOAN</Text-field></Title><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1406" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1424" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DIENMOTCHIEU[Deduce_TinhTiLe]:=proc(goal,Tapgiatri)
+  local j,k,A,B,C,D,X,Y,Z,T,S1,S2,S3,S4,tam,bien,kq,fla;
+  global Sol,Fact_Set,Fact_Kinds,flag;
+  fla:=0;
+  A:=convert(goal,string);
+  B:=convert(lhs(Tapgiatri[1]),string);
+  C:=convert(lhs(Tapgiatri[2]),string);
+  D:=convert(lhs(Tapgiatri[3]),string);
+  X:=A[SearchText(&quot;.&quot;,A)+1]; S1:=A[SearchText(&quot;_&quot;,A)+1];
+  Y:=B[SearchText(&quot;.&quot;,B)+1]; S2:=B[SearchText(&quot;_&quot;,B)+1];
+  Z:=C[SearchText(&quot;.&quot;,C)+1]; S3:=C[SearchText(&quot;_&quot;,C)+1];
+  T:=D[SearchText(&quot;.&quot;,D)+1]; S4:=D[SearchText(&quot;_&quot;,D)+1];   
+  bien:=convert(Tapgiatri,set);  
+  if SearchText(&quot;R&quot;,B[SearchText(&quot;.&quot;,B)..length(B)])&gt;0 or SearchText(&quot;R&quot;,C[SearchText(&quot;.&quot;,C)..length(C)])&gt;0 or SearchText(&quot;R&quot;,D[SearchText(&quot;.&quot;,D)..length(D)])&gt;0 then
+    fla:=1;
+  fi;
+  if fla=0 then
+    if X=Y then
+      if S1=S3 then
+        tam:=goal/lhs(Tapgiatri[1])=lhs(Tapgiatri[2])/lhs(Tapgiatri[3]);
+      elif S1=S4 then
+        tam:=goal/lhs(Tapgiatri[1])=lhs(Tapgiatri[3])/lhs(Tapgiatri[2]);
+      fi;
+    elif X=Z then
+      if S1=S2 then
+        tam:=goal/lhs(Tapgiatri[2])=lhs(Tapgiatri[1])/lhs(Tapgiatri[3]);
+      elif S1=S4 then
+        tam:=goal/lhs(Tapgiatri[2])=lhs(Tapgiatri[3])/lhs(Tapgiatri[1]);
+      fi;
+    elif X=T then
+      if S1=S2 then
+        tam:=goal/lhs(Tapgiatri[3])=lhs(Tapgiatri[1])/lhs(Tapgiatri[2]);
+      elif S1=S3 then
+        tam:=goal/lhs(Tapgiatri[3])=lhs(Tapgiatri[2])/lhs(Tapgiatri[1]);
+      fi;
+    fi;
+  elif fla=1 then
+    if X=Y then
+      if S1=S3 then
+        tam:=goal/lhs(Tapgiatri[1])=lhs(Tapgiatri[3])/lhs(Tapgiatri[2]);
+      elif S1=S4 then
+        tam:=goal/lhs(Tapgiatri[1])=lhs(Tapgiatri[2])/lhs(Tapgiatri[3]);
+      fi;
+    elif X=Z then
+      if S1=S2 then
+        tam:=goal/lhs(Tapgiatri[2])=lhs(Tapgiatri[3])/lhs(Tapgiatri[1]);
+      elif S1=S4 then
+        tam:=goal/lhs(Tapgiatri[2])=lhs(Tapgiatri[1])/lhs(Tapgiatri[3]);
+      fi;
+    elif X=T then
+      if S1=S2 then
+        tam:=goal/lhs(Tapgiatri[3])=lhs(Tapgiatri[2])/lhs(Tapgiatri[1]);
+      elif S1=S3 then
+        tam:=goal/lhs(Tapgiatri[3])=lhs(Tapgiatri[1])/lhs(Tapgiatri[2]);
+      fi;
+    fi;
+  fi;
+  k:=subs(bien,tam);
+  kq:=goal=solve(k,goal);
+
+  Fact_Kinds[3]:=Fact_Kinds[3] union {kq}; 
+  Fact_Set:=Fact_Set union {kq};
+  Sol:=[op(Sol),[&quot;Quan he ti le&quot;,tam,bien,{kq}]];
+  Deduce_From3s();
+  flag:=true;
+
+end proc: #Deduce_TinhTiLe
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1425" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,204]">DIENMOTCHIEU[CT_DienNang] :=proc(Goal)</Font>
+local dt, tam,k, temp;
+global Facts, Fact_Kinds, Fact_Set;
+  if nops([op(Goal)]) = 2 and op(2,Goal)=`A` and type(op(1,Goal),`set`) and type(op(op(1,Goal)),`+`) then
+     dt := [op(op(op(1,Goal)))];
+     dt := map(s-&gt;s.A,dt);
+     tam := dt[1];
+     for k from 2 to nops(dt) do
+        tam := tam+dt[k];
+     od;
+     tam := Goal = tam; 
+     temp := Goal = op(1,Goal).n *(3.6)*(10^6);  
+     Facts := [op(Facts),tam,temp];
+     Fact_Set := Fact_Set union {tam,temp};
+     Fact_Kinds[5]:= Fact_Kinds[5] union {tam,temp};
+  fi;
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1426" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1427" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DIENMOTCHIEU[Deduce_NangLuong]:=proc(Goal,CacGiaTri)
+    global Fact_Kinds,Fact_Set,Sol,flag;
+    local PhuongTrinh,DoiTuong,fact,fact1,HieuSuat,GiaTri;
+
+    fact:={}; fact1:={};
+
+    if nops([op(Goal)]) = 2 and op(2,Goal) = H then
+       DoiTuong:=op(1,Goal);
+       if not Qn in Fact_Kinds[2] then
+         PhuongTrinh:=subs(CacGiaTri,Qn=m*C*(tem2-tem1));
+         if nops(Set_Vars(PhuongTrinh)) = 1 then
+           fact:=solve(PhuongTrinh,Set_Vars(PhuongTrinh));
+           Fact_Kinds[3]:=Fact_Kinds[3] union fact;
+           Fact_Set:=Fact_Set union fact;
+           Sol:=[op(Sol),[&quot;Cong thuc thu nhiet&quot;,&quot;Qn=m*C*(tem2-tem1)&quot;,CacGiaTri,fact]];
+           flag:=true;
+         fi;
+       fi;
+
+       Deduce_Object(DoiTuong,Goal);
+       Deduce_From3s();
+      
+       if DoiTuong.Q in Fact_Kinds[2] then
+          for fact1 in Fact_Kinds[3] do
+             if lhs(fact1) = DoiTuong.Q then break;fi;
+          od;
+
+          for fact in Fact_Kinds[3] do
+             if lhs(fact) = Qn then break;fi;
+          od;
+
+          GiaTri:={fact} union {fact1};
+          HieuSuat:=DoiTuong.H=Qn/(DoiTuong.Q)*100;
+          HieuSuat:=subs(GiaTri,HieuSuat);
+          fact:=solve(HieuSuat,{DoiTuong.H});
+
+          Fact_Kinds[3]:=Fact_Kinds[3] union fact;
+          Fact_Set:=Fact_Set union fact;
+          Sol:=[op(Sol),[&quot;Tinh Hieu suat&quot;,&quot;H=Qn/Q*100&quot;,GiaTri,fact]];
+          flag:=true;
+
+       fi;
+
+    elif Goal in {Qn,m,C,tem1,tem2} then
+         PhuongTrinh:=subs(CacGiaTri,Qn=m*C*(tem2-tem1));
+         if nops(Set_Vars(PhuongTrinh)) = 1 then
+           fact:=solve(PhuongTrinh,Set_Vars(PhuongTrinh))[1];
+           Fact_Kinds[3]:=Fact_Kinds[3] union {fact};
+           Fact_Set:=Fact_Set union {fact};
+           Sol:=[op(Sol),[&quot;Cong thuc thu nhiet&quot;,&quot;Qn=m*C*(tem2-tem1)&quot;,CacGiaTri,{fact}]];
+
+          <Font bold="false"> </Font>Fact_Kinds[2]:={op(Fact_Kinds[2]),lhs(fact)};
+           Fact_Set:=Fact_Set union {lhs(fact)};
+           Sol:=[op(Sol),[&quot;Deduce_From3s&quot;,[],{fact},{lhs(fact)}]];
+         fi;
+    fi;
+
+end proc: # Deduce_NangLuong
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1409" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,0,204]">DIENMOTCHIEU[Deduce_Object]:=proc(O,Goal)</Font><Font bold="false" foreground="[255,51,51]">
+local ObjStructTemp,Deduce_ObjRela1;
+
+global Fact_Kinds,Fact_Set,Sol,flag,Objs, Obj_Types, Obj_Facts;
+
+ObjStructTemp:=ObjStruct_Replace(O);</Font><Font bold="false" foreground="[153,51,255]">
+
+Deduce_ObjRela1:=proc()</Font><Font bold="false" foreground="[255,51,51]">
+</Font><Font bold="false" foreground="[0,0,0]"># Ap dung quan he tinh toan f bang cach the cac su kien loai 2 va 3 vao f. dk : f co dung mot bien chua co trong su kien loai 2</Font><Font bold="false" foreground="[255,51,51]">
+local f,vars,fact,expr,news,ex,k, v, temp, dt, idt;
+
+for f in ObjStructTemp[8] do 
+ #if member([d,f],TestOCR) then next;fi; 
+ vars := Minus_Unify(f[3],Fact_Kinds[2]);
+ if (f[2]=1 and nops(vars)=1) or (f[2]=0 and vars=f[5]) then        
+    expr:=Subs_Unify(f[3],f[6]);    
+    news:=MySolve(expr,Set_Vars(expr),1);
+    if news &lt;&gt; {} then
+    #   TestOCR:= TestOCR union {[d,f]};            
+       temp := {}; 
+       for ex in news do
+          temp := Union_Unify(temp ,Minus_Unify(ex ,Fact_Kinds[3]));
+       od;     
+       for ex in temp do             
+          k :=  Kind_Fact(ex);
+          if  k&gt;=1 and k&lt;=5 and evalb(ex) = false and not Unify_In(ex,Fact_Set) then
+              Fact_Kinds[k] :={op(Fact_Kinds[k]),ex};
+              Fact_Set:=Fact_Set union {ex};      
+          fi;
+       od;
+       v:= f[3] minus vars;               
+       Sol:=[op(Sol),[&quot;Deduce_Object&quot;,f,{seq(v[il]= Get_Values(v[il]), il = 1..nops(v))},temp]]:
+       flag:=true;             
+     fi;           
+  
+     Deduce_From3s();
+
+ elif (f[2]=1 and nops(vars)=2) then
+     expr:=Subs_Unify(f[3],f[6]);
+     k:=Kind_Fact(expr);
+     if k = 5 and not Unify_In(expr,Fact_Kinds[5]) then
+        Fact_Kinds[5] :={op(Fact_Kinds[5]),expr};
+        Fact_Set:=Fact_Set union {expr};
+        v:= f[3] minus vars;               
+        Sol:=[op(Sol),[&quot;Deduce_Object&quot;,f,{seq(v[il]= Get_Values(v[il]), il = 1..nops(v))},{expr}]]:
+        flag:=true;
+     fi;
+
+ elif (f[2]=1 and nops(vars) &gt; 2 and f[7] = 0) then 
+  # Cong thuc' R=pl/S, m=D*S*l
+     expr:=Subs_Unify(f[3],f[6]);
+     if Kind_Fact(expr) = 5 and not Unify_In(expr,Fact_Kinds[5]) then
+       Fact_Kinds[5] :={op(Fact_Kinds[5]),expr};
+       Fact_Set:=Fact_Set union {expr};
+       v:= f[3] minus vars;               
+       Sol:=[op(Sol),[&quot;Deduce_Object&quot;,f,{seq(v[il]= Get_Values(v[il]), il = 1..nops(v))},{expr}]]:
+       flag:=true;
+     fi;
+</Font>     <Font bold="false" foreground="[255,51,51]">
+</Font> fi;<Font bold="false" foreground="[255,51,51]">
+
+od;                </Font><Font bold="false" foreground="[153,51,255]">
+end: # Deduce_ObjRela1
+</Font><Font style="Text">
+Deduce_Object's body</Font><Font bold="false" foreground="[255,51,51]">
+#trace(Deduce_ObjRela1);
+Deduce_ObjRela1();
+  </Font><Font foreground="[153,51,255]">        
+</Font><Font foreground="[0,0,255]">end proc:  #  Deduce_Object</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1408" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DIENMOTCHIEU[SolObj] := proc(Goal)
+  local goal;
+
+  goal := Goal;
+  if type(Goal,`function`) and op(0,Goal)=`.` then
+     goal := op(1,Goal);
+  fi;
+  Deduce_Object(goal, Goal);
+end: # SolObj
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1407" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DIENMOTCHIEU[Compute] := proc(Goal)
+  global Found, flag,Sol,Fact_Kinds,Fact_Set;
+  local k,dem,Bool,fact,fact1,DoiTuong,A;
+
+  Found := false;
+  flag := true;
+  dem:=0; Bool:=0;
+
+  CT_DienNang(Goal);
+
+  A:=convert(Goal,string);
+
+  if SearchText(&quot;_&quot;,A) &gt; 0 then
+      Deduce_TinhTiLe(Goal,Fact_Kinds[3]);
+      Found:=Test_Goal(Goal,Fact_Set);
+  fi;
+
+  if Goal in {Qn,m,C,tem1,tem2} or (nops([op(Goal)]) = 2 and op(2,Goal) = H) then
+        Bool:=1;
+        if nargs = 2 then Deduce_NangLuong(Goal,args[2]); fi;
+        Found:=Test_Goal(Goal,Fact_Set);
+
+  elif args[2] &lt;&gt; {} then
+     if not(Qn in Fact_Kinds[2]) then Deduce_NangLuong(Qn,args[2]); fi;
+
+     DoiTuong:=op(1,Goal);
+     if DoiTuong.H in Fact_Kinds[2] or arg[3] = 1 then
+         for fact in Fact_Kinds[3] do
+             if lhs(fact) = DoiTuong.H then break;fi;
+         od;      
+          
+         fact1:= DoiTuong.Q = Qn/(DoiTuong.H)*100;
+     else
+         fact:=DoiTuong.H=100;
+         Fact_Kinds[3]:={op(Fact_Kinds[3]),fact};
+         Fact_Set:={op(Fact_Set),fact};
+
+         fact1:= DoiTuong.Q = Qn;
+     fi;
+
+     k:=Kind_Fact(fact1);
+     Fact_Kinds[k]:={op(Fact_Kinds[k]),fact1};
+     Fact_Set:={op(Fact_Set),fact1};
+     Sol:=[op(Sol),[&quot;Cong thuc tinh hieu suat&quot;,&quot;H=Qn/Q*100&quot;,{},{fact1}]];
+  fi;
+
+
+while flag and not Found do
+   flag := false;
+
+   # Cac buoc giai can ban
+   if {op(Fact_Kinds[3])} &lt;&gt; DF3 then 
+      Deduce_From3s(); 
+      if flag then  Found:=Test_Goal(Goal,Fact_Set);next;fi;
+   fi;
+
+   # Thu giai trong mot doi tuong
+   if dem &lt;= 2 and member(op(1,Goal),Objs) then
+        #print(&quot;Giai&quot;);
+        SolObj(Goal); 
+        if flag then  Found:=Test_Goal(Goal,Fact_Set);next;fi;
+   fi;
+ 
+   if dem = 0 then
+      for k from 1 to nops(Objs) do
+         Deduce_Object(Objs[k],Goal);
+      od;
+
+      dem:=1;
+   fi;     
+
+   #print(&quot;Ohm&quot;);
+   Deduce_OhmTheorem(Fact_Kinds[3]);
+   Found:=Test_Goal(Goal,Fact_Set);
+   if Found then return; fi;
+
+   #print(&quot;43&quot;);
+   Deduce_From43s();
+   Found:=Test_Goal(Goal,Fact_Set);
+   if Found then return; fi;
+
+   #print(&quot;53&quot;);
+   Deduce_From53s();
+   Found:=Test_Goal(Goal,Fact_Set);
+   if Found then return;fi;
+
+   #print(&quot;54&quot;);
+   Deduce_From54s();
+   Found:=Test_Goal(Goal,Fact_Set);
+   if Found then return;fi;
+
+   print(&quot;DAYDAN&quot;);
+   if member(&quot;DAYDAN&quot;,Obj_Types) then
+     Deduce_FromDAYDAN(Goal);
+     Found:=Test_Goal(Goal,Fact_Set);
+     if Found then return;fi;
+   fi;
+
+   if Bool = 1 then 
+       Deduce_NangLuong(Goal,args[2]);
+       Found:= Test_Goal(Goal,Fact_Set);
+   fi;
+
+   dem:=dem+1;
+
+od;  
+end: # Compute</Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">HAM CHINH</Text-field></Title><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1400" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1401" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DIENMOTCHIEU[Determine_Goals]:=proc(GT, KL)
+  local Init,goal, time1,Them,Bool;
+  <Font bold="false">global Objs, Obj_Types, Obj_Facts, ObjNets, ObjNet_Struct,
+         ObjNet_Facts, ObjNet_Obj, Facts,Fact_Kinds,Fact_Set,
+         Sol,Goals, LoiGiai, Attrs, Attr_Types,Sol_Old,GiaThiet, KetLuan, Problem,
+   
+         DF3,DF43,DF53,DF54,DF5;</Font>
+  time1:=time();
+    <Font bold="false" foreground="[153,51,255]">Init:= proc()</Font><Font bold="false" foreground="[255,51,51]">
+     </Font><Font bold="false">GiaThiet := []; </Font><Font foreground="[153,51,255]">
+     KetLuan := [];
+</Font>     Problem := &quot;&quot;;<Font bold="false" foreground="[255,51,51]">
+     DF3 := {};
+     DF43:={};
+     DF53:={};
+     DF54:={};
+     DF5:={};
+     </Font><Font bold="false">Objs:=[];     
+     Obj_Types:=[];
+     Obj_Facts:=[]; 
+     ObjNets:=[];   
+     ObjNet_Struct:=[];
+     ObjNet_Facts:=[];
+     ObjNet_Obj:=[];
+     Facts:={};
+     Fact_Kinds:=[{},{},{},{},{}]; 
+     Fact_Set:={};  
+     Sol:=[];<Font foreground="[255,51,51]"> 
+     Goals := [];
+     LoiGiai := [];
+     Attrs := [];
+     Attr_Types := [];
+     Sol_Old := [];
+ </Font>  <Font foreground="[153,51,255]">end:  #   Init</Font> </Font>
+  # Determine_Goals 's body 
+   <Font bold="false">Init();
+   ReadHypothesis(GT);
+   Goals := KL;
+
+   if nops(GT) = 3 then Them:=GT[3];
+   else Them:={}; 
+   fi;
+
+   Bool:=0;
+   for goal in Goal do
+      if nops([op(goal)]) = 2 and op(2,goal)=H then
+          Bool:=1;
+          break;
+      fi;
+   od;
+
+  for goal in Goals do 
+
+     if Test_Goal(goal,Fact_Set) then 
+        Output_Result(goal);next;
+     fi; 
+     Compute(goal,Them,Bool);
+     Output_Result(goal); 
+</Font>   od;<Font bold="false" foreground="[255,0,51]">
+   lprint(`Total Time`,time()-time1);</Font>
+
+end: </Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1119" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">DANH SACH CAC HAM DUNG TRONG KET NOI</Text-field></Title><Presentation-Block>
+<Group view="code" labelreference="L1438" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[153,51,255]">DIENMOTCHIEU[Reset_Onet] := proc()</Font><Font style="Text">#khoi tao cac bien toan cuc</Font><Font bold="false">
+global  GiaThiet, KetLuan, Problem</Font>;<Font bold="false">
+   GiaThiet := []; </Font><Font foreground="[153,51,255]">
+   KetLuan := [];
+   Problem := &quot;&quot;;
+end proc: # Reset_Onet</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1434" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[153,51,255]">DIENMOTCHIEU[ReadExer]:=proc(url::string)   </Font><Font foreground="[0,204,102]"> </Font><Font bold="false">
+# DOC DE BAI TU FILE TEXT
+local   line,fd,
+        read_problem, read_giathiet,read_ketluan;                 <Font foreground="[255,51,102]">       
+global       Problem, GiaThiet, KetLuan;</Font><Font foreground="[153,51,255]">
+
+read_problem:=proc()</Font><Font foreground="[102,102,102]">
+  </Font><Font foreground="[255,51,51]"> line := readline(fd);  	  
+   while line &lt;&gt; 0 and SearchText(&quot;end_problem&quot;, line) = 0 do  
+     Problem:=cat(Problem,line);
+     line := readline(fd);  
+   od;    </Font><Font foreground="[102,102,102]">   </Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[153,0,255]">end :  #  read_problem</Font><Font foreground="[153,51,255]">
+
+read_giathiet:=proc()</Font><Font foreground="[102,102,102]">
+   GiaThiet := &quot;&quot;;
+  </Font><Font foreground="[255,51,51]"> line := readline(fd);  	  
+   while line &lt;&gt; 0 and SearchText(&quot;end_hypothesis&quot;, line) = 0 do    
+    GiaThiet:=cat(GiaThiet,line);
+      line := readline(fd);  
+   od;  
+   GiaThiet := parse(GiaThiet)</Font><Font foreground="[102,102,102]">;</Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[153,0,255]">end :  #  read_giathiet</Font><Font foreground="[153,51,255]">
+
+read_ketluan:=proc()</Font><Font foreground="[102,102,102]">
+   KetLuan := &quot;&quot;;
+  </Font><Font foreground="[255,51,51]"> line := readline(fd);  	  
+   while line &lt;&gt; 0 and SearchText(&quot;end_goal&quot;, line) = 0 do              
+KetLuan:=cat(KetLuan,line);
+      line := readline(fd);  
+   od;  
+   KetLuan := parse(KetLuan)</Font><Font foreground="[102,102,102]">;</Font><Font foreground="[153,51,255]">
+</Font><Font foreground="[153,0,255]">end :  #  read_ketluan</Font><Font foreground="[153,51,255]">
+
+</Font></Font><Font style="Text"># ReadExer's body</Font><Font bold="false">
+
+
+  Problem := &quot;&quot;; 
+  
+  fd := fopen(url, READ, TEXT);
+  line := readline(fd);
+  while line &lt;&gt; 0 and SearchText(&quot;begin_exercise&quot;, line) = 0  do
+     line := readline(fd);
+  od; 
+ </Font> <Font bold="false">while line &lt;&gt; 0 and SearchText(&quot;end_exercise&quot;, line) = 0  do
+    line := readline(fd);
+   <Font foreground="[255,51,102]"> while line &lt;&gt; 0 and SearchText(&quot;begin_problem&quot;, line) = 0 do</Font><Font foreground="[255,51,51]">
+        line := readline(fd);          
+    od;
+    read_problem();
+
+ # doc gia thiet 
+    while line &lt;&gt; 0 and SearchText(&quot;begin_hypothesis&quot;, line) = 0 do
+         line := readline(fd);
+    od; 
+    read_giathiet();</Font>
+<Font foreground="[255,51,51]">  </Font></Font><Font style="Text"> 
+</Font><Font bold="false" executable="false"># doc ket luan</Font><Font bold="false" foreground="[255,51,51]">
+    while line &lt;&gt; 0 and SearchText(&quot;begin_goal&quot;, line) = 0 do
+         line := readline(fd);
+    od;
+    read_ketluan();</Font><Font bold="false">
+    break;
+
+  od;</Font>
+  <Font bold="false">fclose(fd);
+
+</Font><Font foreground="[153,51,255]">
+end proc:#end ReadExer</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1436" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[153,51,255]">DIENMOTCHIEU[get_giathiet</Font>]:= proc()<Font bold="false"> </Font>
+# Lay Data_HH6 gia thiet tu maple de dua vao java
+local giathiet;
+global GiaThiet;
+giathiet := [];
+   giathiet := GiaThiet;
+return giathiet;
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1435" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DIENMOTCHIEU[set_giathiet]:= proc(gt)
+# Lay Data_HH6 java de dua vao maple
+global GiaThiet;
+local tam, i, temp, vitri;   
+   GiaThiet := [];
+   tam := gt[1];
+   temp := [];
+   for i to length(tam) do
+     if StringTools[Ord](tam[i])=10  then
+        temp := [op(temp),parse(substring(tam,1..i-1))];
+        tam := substring(tam,i+1..length(tam)); 
+       i := 1; 
+     fi;
+   od;
+   if tam &lt;&gt; &quot; &quot; then temp := [op(temp),parse(tam)];fi;
+   GiaThiet := temp;      
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1433" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1440" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1431" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[153,51,255]">DIENMOTCHIEU[set_ketluan]</Font>:= proc(kl)<Font bold="false"> </Font>
+# Lay Data_HH6 java de dua vao maple
+global KetLuan;
+local vitri1, vitri2, tam, i;   
+   KetLuan := parse(kl[1]); 
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1439" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1437" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[153,51,255]">DIENMOTCHIEU[set_debai</Font>]:= proc(SPro)<Font bold="false"> </Font>
+# Lay Data_HH6 java de dua vao maple
+global Problem;
+   Problem := op(SPro);
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1442" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1121" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1122" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1123" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">JSFH</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="code" labelreference="L1206" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">url := currentdir():</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1204" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">save DIENMOTCHIEU,cat(url,&quot;/DIENMOTCHIEU.m&quot;):</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L1205" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">libname := libname, url:</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group labelreference="L1203" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DIENMOTCHIEU);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">N1JJLENUX0RpZW5OYW5nRzYiSShDb21wdXRlR0YkSS1EZWR1Y2VfRnJvbTNHRiRJLkRlZHVjZV9Gcm9tM3NHRiRJL0RlZHVjZV9Gcm9tNDNzR0YkSS9EZWR1Y2VfRnJvbTUzc0dGJEkvRGVkdWNlX0Zyb201NHNHRiRJMkRlZHVjZV9Gcm9tREFZREFOR0YkSTJEZWR1Y2VfRnJvbVN0cnVjdEdGJEkwRGVkdWNlX0Zyb21UeXBlR0YkSTlEZWR1Y2VfRnJvbV9PYmpOZXRTdHJ1Y3RHRiRJMURlZHVjZV9OYW5nTHVvbmdHRiRJLkRlZHVjZV9PYmplY3RHRiRJMkRlZHVjZV9PaG1UaGVvcmVtR0YkSTBEZWR1Y2VfVGluaFRpTGVHRiRJMERldGVybWluZV9Hb2Fsc0dGJEkrR2V0X1ZhbHVlc0dGJEksSGFzX0VsZW1lbnRHRiRJMEludGVyc2VjdF9VbmlmeUdGJEkrSXNfRWxlbWVudEdGJEkpSXNfRXF1YWxHRiRJKktpbmRfRmFjdEdGJEksTWludXNfVW5pZnlHRiRJKE15U29sdmVHRiRJKk5hbWVfVHlwZUdGJEkqT2JqU3RydWN0R0YkSTJPYmpTdHJ1Y3RfUmVwbGFjZUdGJEkuT3V0cHV0X1Jlc3VsdEdGJEksUmVhZENPYmplY3RHRiRJKVJlYWRFeGVyR0YkSS9SZWFkSHlwb3RoZXNpc0dGJEkrUmVzZXRfT25ldEdGJEkpU2V0X1ZhcnNHRiRJJ1NpZ25vZkdGJEknU29sT2JqR0YkSStTdWJzX1VuaWZ5R0YkSSpUZXN0X0dvYWxHRiRJK1VuaWZ5X0ZhY3RHRiRJKVVuaWZ5X0luR0YkSSxVbmlvbl9VbmlmeUdGJEkyVmFsaWRfU3RydWN0X05hbWVHRiRJLFh1bHlfUm9vdE9mR0YkSS1nZXRfZ2lhdGhpZXRHRiRJJWluaXRHRiRJKnNldF9kZWJhaUdGJEktc2V0X2dpYXRoaWV0R0YkSSxzZXRfa2V0bHVhbkdGJEkqdHlwZV9PbmV0R0Yk</Equation></Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group labelreference="L4" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Giathiet := [[[A,M]=[0,{[R1,&quot;DIENTRO&quot;]},R1]],[R1.R=80, R1.i = 2.5,R1.t=1]];
+Ketluan := [R1.Q];
+Determine_Goals(Giathiet,Ketluan);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEpR2lhdGhpZXRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkobWZlbmNlZEdGJDYmLUYjNigtRlA2Ji1GIzYmLUYjNigtRlA2Ji1GIzYoLUYsNiVRIkFGJ0YvRjItRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTlEsMC4zMzMzMzMzZW1GJy1GLDYlUSJNRidGL0YyLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9RjlGOS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJy1GNjYtUSI9RidGOUY7Rj5GQEZCRkRGRkZIRkpGTS1GUDYmLUYjNiotSSNtbkdGJDYkUSIwRidGOUZbby1GUDYmLUYjNiYtRlA2Ji1GIzYoLUYsNiVRI1IxRidGL0YyRltvLUkjbXNHRiQ2I1EoRElFTlRST0YnRmZvRmlvRjlGOUZbcEZecEZmb0Zpb0Y5RjkvRlxwUSJ8ZnJGJy9GX3BRInxockYnRltvRmRxRmZvRmlvRjlGOUZbcEZecEZmb0Zpb0Y5RmZvRmlvRjlGOUZbcEZecEZbby1GUDYmLUYjNiotRiM2KC1GIzYoRmRxLUY2Ni1RIi5GJ0Y5RjtGPkZARkJGREZGRkhGX28vRk5GYG8tRiw2JVEiUkYnRi9GMkZmb0Zpb0Y5RmFwLUZpcDYkUSM4MEYnRjlGZm9GaW9GOUZbby1GIzYoLUYjNihGZHFGZ3ItRiw2JVEiaUYnRi9GMkZmb0Zpb0Y5RmFwLUZpcDYkUSQyLjVGJ0Y5RmZvRmlvRjlGW28tRiM2KC1GIzYoRmRxRmdyLUYsNiVRInRGJ0YvRjJGZm9GaW9GOUZhcC1GaXA2JFEiMUYnRjlGZm9GaW9GOUZmb0Zpb0Y5RjlGW3BGXnBGZm9GaW9GOUY5RltwRl5wRmZvRmlvRjk=">NyQ3Iy83JEkiQUc2IkkiTUdGJzclIiIhPCM3JEkjUjFHRidRKERJRU5UUk9GJ0YtNyUvLUkiLkc2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJzYkRi1JIlJHRiciIyEpLy1GMjYkRi1JImlHRickIiNEISIiLy1GMjYkRi1JInRHRiciIiI=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEoS2V0bHVhbkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2Ji1GIzYoLUYsNiVRI1IxRidGL0YyLUY2Ni1RIi5GJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZ24tRiw2JVEiUUYnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RlxvRl9vRjlGOS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0Zcb0Zfb0Y5">NyMtSSIuRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiNiRJI1IxRzYiSSJRRzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">
+***----------------------------
+
+TINH: R1 . Q
+KET QUA: R1 . Q = 500.
+BAI GIAI: 
+
+
+Buoc 1 : 
+	Suy ra: {R1 . U = 200.} 
+	Tu: {R1 . R = 80, R1 . i = 2.5}
+	Do: [&quot;    begin_relation  1&quot;, 1, {R1 . R, R1 . U, R1 . i}, 1, {}, R1 . i = R1 . U/(R1 . R), 2]
+	Thuc hien buoc giai: Deduce_Object
+
+Buoc 2 : 
+	Suy ra: {R1 . Q = 500.} 
+	Tu: {R1 . U = 200., R1 . i = 2.5, R1 . t = 1}
+	Do: [&quot;   begin_relation  1&quot;, 1, {R1 . Q, R1 . U, R1 . i, R1 . t}, 1, {}, R1 . Q = R1 . U*(R1 . i)*(R1 . t), 2]
+	Thuc hien buoc giai: Deduce_Object
+`Total Time`, .296</Text-field>
+</Output>
+</Group>
+<Group labelreference="L1449" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1450" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1501" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L3" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2I1EhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>

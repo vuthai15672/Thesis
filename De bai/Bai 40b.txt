@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot bep hoat dong binh thuong co dien tro R=80 va cuong do dong dien qua bep la 2,5A. m=1,5l ; t1=250; t2=1000; t=20 phút, C=4200 J/Kg.K. Tính H
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DIENTRO"]},R1]],[R1.R=80, R1.i = 2.5,R1.t=20*60],{m=1.5,tem1=25,tem2=100,C=4200}]
+end_hypothesis
+
+begin_goal
+  [R1.H]
+end_goal
+
+end_exercise

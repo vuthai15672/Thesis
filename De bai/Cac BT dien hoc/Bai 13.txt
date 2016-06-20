@@ -1,0 +1,18 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Cho mach dien AB gom R1 , R2 va R3 = 40  mac song song. Trong do I1=0,4A, I2=0,3A, I(AB) = 1A
+      -	Tinh I3
+      -	Tinh U(AB)
+      -	Tinh R1, R2
+end_problem
+
+begin_hypothesis
+  [[[A,B]=[0,{[R1,"DIENTRO"],[R2,"DIENTRO"],[R3,"DIENTRO"]},{R1,R2,R3}]],[R3.R=40,R1.i=0.4,R2.i=0.3,[A,B].i=1]]
+end_hypothesis
+
+begin_goal
+  [R3.i,[A,B].U,R1.R,R2.R]
+end_goal
+
+end_exercise

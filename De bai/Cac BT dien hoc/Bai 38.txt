@@ -1,0 +1,18 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot doan mach gom mot den (6V-4,5W) mac noi tiep mot bien tro vao mot mach co U=9V, t=10 phut. Tinh
+      -	I(tm)
+      -	R(bt), P(bt)
+      -	A(bt), A(tm)
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DIENTRO"],[R2,"DIENTRO"]},[R1,R2]]],[R1.U=6,R1.P = 4.5,[A,M].U=9, R2.t=10*60,R1.t=10*60]]
+end_hypothesis
+
+begin_goal
+  [[A,M].i,R2.R,R2.P,R2.A,{R1+R2}.A]
+end_goal
+
+end_exercise

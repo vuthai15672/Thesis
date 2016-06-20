@@ -1,0 +1,17 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot bong den co ghi 220V-100W va mot ban la ghi 220V-1000W cung mac vao dong dien co U=220V, su dung trong 1h. Tinh
+      -	Rtm
+      -	Atm, n
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DIENTRO"],[R2,"DIENTRO"]},{R1,R2}]],[R1.U=220,R1.P = 100,R2.U=220,R2.P = 1000,R2.t=1*3600,R1.t=1*3600, [A,M].U=220]]
+end_hypothesis
+
+begin_goal
+  [[A,M].R,{R1+R2}.A, {R1+R2}.n]
+end_goal
+
+end_exercise

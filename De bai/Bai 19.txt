@@ -1,0 +1,17 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Cho mach dien AB[AM(R1) nt MB(R2 // R3)].Biet R2 = 50 , R3 = 75 , U(AB) = 12V, U23 = 7,2V.
+      -	Tinh I1, I2, I3
+      -	Tinh R1
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DAYDAN"]},R1],[M,B]=[0,{[R2,"DIENTRO"],[R3,"DIENTRO"]},{R2,R3}],[A,B]=[1,{[A,M],[M,B]},[[A,M],[M,B]]]],[R2.R=50,R3.R=75,[A,B].U=12,[M,B].U=7.2]]
+end_hypothesis
+
+begin_goal
+  [R1.i,R2.i,R3.i,R1.R]
+end_goal
+
+end_exercise

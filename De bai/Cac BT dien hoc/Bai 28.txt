@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Hai cuon day dong chat, cung khoi luong. Cuon 1 co R1 = 20  co duong kinh 0,6mm. Cuon 2 co dien tro R2 co duong kinh 0,2mm. Tinh R2 = ?
+end_problem
+
+begin_hypothesis
+  [[[A,B]=[0,{[R1,"DAYDAN"]},R1],[M,N]=[0,{[R2,"DAYDAN"]},R2]],[R1.D = R2.D,R1.p = R2.p,R1.m = R2.m,R1.R=20,R1.d = 0.6*10^(-3),R2.d=0.2*10^(-3)]]
+end_hypothesis
+
+begin_goal
+  [R2.R]
+end_goal
+
+end_exercise

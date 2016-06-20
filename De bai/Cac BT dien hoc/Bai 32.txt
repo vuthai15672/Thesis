@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Tren bong den ghi 6V-30W. Dien tro dinh muc cua den
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DIENTRO"]},R1]],[R1.U=6,R1.P=30]]
+end_hypothesis
+
+begin_goal
+  [R1.i,R1.R]
+end_goal
+
+end_exercise

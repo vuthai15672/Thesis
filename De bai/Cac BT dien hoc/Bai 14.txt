@@ -1,0 +1,17 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Cho doan mach AB gom R1 = 9  va R2 = 6  mac song song voi nhau. Doan mach AB dat trong U(AB) = 7,2V
+      -	Tinh R(AB)
+      -	Tinh I1, I2 và I(AB)
+end_problem
+
+begin_hypothesis
+  [[[A,B]=[0,{[R1,"DIENTRO"],[R2,"DIENTRO"]},{R1,R2}]],[R1.R=9,R2.R=6,[A,B].U=7.2]]
+end_hypothesis
+
+begin_goal
+  [[A,B].R,R1.i,R2.i,[A,B].i]
+end_goal
+
+end_exercise

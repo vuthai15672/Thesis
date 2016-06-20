@@ -1,0 +1,18 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Cho doan mach AB [(R1 nt R2) // (R3 nt R4)]. Biet R1 = 30 , R2 = 15 , R3 = 30 , R4 = 60 , U(AB) = 9V.
+      -	Tinh R(AB)
+      -	Tinh I1, I2, I3, I4
+      -	Tinh U12
+end_problem
+
+begin_hypothesis
+  [[[A,B]=[0,{[R1,"DIENTRO"],[R2,"DIENTRO"],[R3,"DIENTRO"],[R4,"DIENTRO"]},{[R1,R2],[R3,R4]}]],[R1.R=30,R2.R=15,R3.R=30,R4.R=60,[A,B].U=9]]
+end_hypothesis
+
+begin_goal
+  [[A,B].R,R1.i,R2.i,R3.i,R4.i,[R1,R2].U]
+end_goal
+
+end_exercise

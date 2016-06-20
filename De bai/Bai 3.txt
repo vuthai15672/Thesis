@@ -1,0 +1,16 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot bong den co R = 12, I = 0,5A. Tinh U cua bong den
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DIENTRO"]},R1]],[R1.R=12, R1.i = 0.5]]
+end_hypothesis
+
+begin_goal
+  [R1.U]
+end_goal
+
+end_exercise
+

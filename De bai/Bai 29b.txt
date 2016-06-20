@@ -1,0 +1,16 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot bong den co R1 = 10 va dong dien qua co I=0,8A, U=12V, bong den mac noi tiep voi bien tro.
+Cho biet bien tro lam bang nikelin co dien tro lon nhat R(bt) la 25 , S=10-6 m2, P=0,4.10-6 M. Tinh chieu dai day dan lam bien tro.
+end_problem
+
+begin_hypothesis
+  [[[A,B]=[0,{[R1,"DIENTRO"],[R2,"DAYDAN"]},[R1,R2]]],[R2.R=25,R2.p=0.4*10^(-6),R2.S=10^(-6)]]
+end_hypothesis
+
+begin_goal
+  [R2.l]
+end_goal
+
+end_exercise

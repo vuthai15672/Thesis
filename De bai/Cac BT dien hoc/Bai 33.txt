@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot bep dien hoat dong binh thuong mac vao dong dien U=220V, bep co R=48,4 . Tinh cong suat P
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DIENTRO"]},R1]],[R1.U=220,R1.R=48.4]]
+end_hypothesis
+
+begin_goal
+  [R1.P]
+end_goal
+
+end_exercise

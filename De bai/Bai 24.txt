@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot day dan bang constantan co l1=100m, S1=1mm2 thi co dien tro R1=50 . Hoi mot day constantan khac co l2=50m, S2=0,5mm2 thi R2 =?
+end_problem
+
+begin_hypothesis
+  [[[A,B]=[0,{[R1,"DAYDAN"]},R1],[M,N]=[0,{[R2,"DAYDAN"]},R2]],[R1.p = R2.p,R1.l = 100,R1.S = 1*10^(-6),R1.R=50,R2.l=50,R2.S=0.5*10^(-6)]]
+end_hypothesis
+
+begin_goal
+  [R2.R]
+end_goal
+
+end_exercise

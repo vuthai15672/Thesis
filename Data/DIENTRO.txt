@@ -1,0 +1,86 @@
+begin_object: DIENTRO;
+  
+  begin_othername
+  end_othername
+
+  begin_variables
+    R: REAL; # dien tro
+    i: REAL; # cuong do dong dien
+    U: REAL; # hieu dien the
+    P: REAL; # cong suat
+    A: REAL; # dien nang tieu thu
+    t: REAL; # thoi gian thiet bi hoat dong
+    n: REAL; # chi so dien ke cua thiet bi  
+    Q: REAL; # nhiet luong toan phan   
+    H: REAL; # hieu suat
+  end_variables
+
+  begin_constraints
+    R >= 0;
+    i >= 0;
+    U >= 0;
+    P >= 0;
+  end_constraints 
+
+  begin_properties
+  end_properties
+
+  begin_computation_relations
+    begin_relation  0
+     flag = 1
+     Mf    ={U,P,i}
+     rf    =1
+     vf    ={}
+     expf =`P=U*i`
+     cost=2
+   end_relation
+
+    begin_relation  1
+     flag = 1
+     Mf    ={U,R,i}
+     rf    =1
+     vf    ={}
+     expf =`i=U/R`
+     cost=2
+   end_relation
+
+
+   begin_relation  1
+     flag = 1
+     Mf    ={A,P,t}
+     rf    =1
+     vf    ={}
+     expf =`A=P*t`
+     cost=2
+   end_relation   
+
+   begin_relation  1
+     flag = 1
+     Mf    ={A,n}
+     rf    =1
+     vf    ={}
+     expf =`A=n*3.6*10^6`
+     cost=2
+   end_relation   
+
+   begin_relation  1
+     flag = 1
+     Mf    ={Q,U,i,t}
+     rf    =1
+     vf    ={}
+     expf =`Q=U*i*t`
+     cost=2
+   end_relation   
+  end_computation_relations
+  
+
+  begin_facts
+  end_facts
+
+  begin_rules  
+  end_rules
+
+
+end_object
+
+

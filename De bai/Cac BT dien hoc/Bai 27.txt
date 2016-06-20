@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Tim dien tro suat cua day dan dien 500KV. Biet tiet dien cua day la 1492mm2, chieu dai day la 1000m va dien tro cua day la 0,085
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DAYDAN"]},R1]],[R1.R=0.085,R1.l=1000,R1.S=1492*10^(-6)]]
+end_hypothesis
+
+begin_goal
+  [R1.p]
+end_goal
+
+end_exercise

@@ -1,0 +1,17 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Cho mach dien AB gom R1 va R2 mac song song. Trong do R1 = 10 , I1 = 1,2A , I(AB) = 1,8A
+      -	Tinh U(AB)
+      -	Tinh R2
+end_problem
+
+begin_hypothesis
+  [[[A,B]=[0,{[R1,"DIENTRO"],[R2,"DIENTRO"]},{R1,R2}]],[R1.R=10,R1.i=1.2,[A,B].i=1.8]]
+end_hypothesis
+
+begin_goal
+  [[A,B].U,R2.R]
+end_goal
+
+end_exercise

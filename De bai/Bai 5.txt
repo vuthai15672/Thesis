@@ -1,0 +1,17 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Cho doan mach AB gom hai dien tro R1 = 5 va R2 mac noi tiep. I(AB) = 0,5A va U(AB) = 6V 
+    - Tinh R(td) toan mach
+    - Tinh R2
+end_problem
+
+begin_hypothesis
+  [[[A,B]=[0,{[R1,"DIENTRO"],[R2,"DIENTRO"]},[R1,R2]]],[R1.R=5,[A,B].i=0.5,[A,B].U=6]]
+end_hypothesis
+
+begin_goal
+  [[A,B].R,R2.R]
+end_goal
+
+end_exercise

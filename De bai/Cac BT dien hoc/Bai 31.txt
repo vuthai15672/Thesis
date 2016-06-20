@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot bong den dat vao dong dien U=12V thi I=0,4A. Tinh cong suat va dien tro bong den.
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DIENTRO"]},R1]],[R1.U=12,R1.i=0.4]]
+end_hypothesis
+
+begin_goal
+  [R1.P,R1.R]
+end_goal
+
+end_exercise

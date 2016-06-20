@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Cho mot day toc bong den co R=50 ; d=0,04.10-3m; P=5,5.10-8 m. Tinh l=?
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DAYDAN"]},R1]],[R1.R=50,R1.d=0.04*10^(-3),R1.p=5.5*10^(-8)]]
+end_hypothesis
+
+begin_goal
+  [R1.l]
+end_goal
+
+end_exercise

@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Hai day dong co cung chieu dai. Day 1 co tiet dien 10mm2, day 2 co tiet dien 30mm2. So sanh dien tro cua hai day dan.
+end_problem
+
+begin_hypothesis
+  [[[A,B]=[0,{[R1,"DAYDAN"]},R1],[M,N]=[0,{[R2,"DAYDAN"]},R2]],[R1.l = R2.l,R1.p = R2.p,R1.S = 10*10^(-6),R2.S=30*10^(-6)]]
+end_hypothesis
+
+begin_goal
+  [R1.R/(R2.R)]
+end_goal
+
+end_exercise

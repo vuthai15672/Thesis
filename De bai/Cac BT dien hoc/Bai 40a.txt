@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot bep hoat dong binh thuong co dien tro R=80 va cuong do dong dien qua bep la 2,5A. Tinh Q ma bep toa ra trong 1s
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DIENTRO"]},R1]],[R1.R=80, R1.i = 2.5,R1.t=1]]
+end_hypothesis
+
+begin_goal
+  [R1.Q]
+end_goal
+
+end_exercise

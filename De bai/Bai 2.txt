@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Cho dong dien voi I1 = 0,24A, U1 = 24V qua mot day dan. Hoi dong dien voi I2 = 0,9A qua day dan tren thi U2 = ?
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DAYDAN"]},R1]],[R1.i_1=0.24, R1.U_1=24,R1.i_2=0.9]]
+end_hypothesis
+
+begin_goal
+  [R1.U_2]
+end_goal
+
+end_exercise

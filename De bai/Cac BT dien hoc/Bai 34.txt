@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot bong den ghi 220V-75W duoc thap sang trong 4h. Tinh dien nang tieu thu va chi so cua dien ke.
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DIENTRO"]},R1]],[R1.U=220,R1.P=75,R1.t=4*3600]]
+end_hypothesis
+
+begin_goal
+  [R1.A,R1.n]
+end_goal
+
+end_exercise

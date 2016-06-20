@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Cho doan mach AB gom R1, R2 = 2 , R3 = 4  va R4 = 5  mac noi tiep voi nhau. Dat vao hai dau doan mach AB mot U = 24V, do duoc U3 = 8V. Tinh R1
+end_problem
+
+begin_hypothesis
+  [[[A,B]=[0,{[R1,"DIENTRO"],[R2,"DIENTRO"],[R3,"DIENTRO"],[R4,"DIENTRO"]},[R1,R2,R3,R4]]],[R3.U=8,R2.R=2,R3.R=4,R4.R=5,[A,B].U=24]]
+end_hypothesis
+
+begin_goal
+  [R1.R]
+end_goal
+
+end_exercise

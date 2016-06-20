@@ -1,0 +1,18 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot day dan tu chung cu toi mot gia dinh dai l=40m, s=0,5.10-6m2, P=1,7.10-8 m. Hieu dien the U=220V, tong cong suat cac thiet bi dien la 165W, thoi gian 3.30.360s (moi ngay dung 3h). Tinh
+      -	R day dan
+      -	I
+      -	Q, chi so dien ke n
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DAYDAN"]},R1]],[R1.l=40,R1.S=0.5*10^(-6),R1.p=1.7*10^(-8),R1.P=165,R1.U=220,R1.t=3*30*3600]]
+end_hypothesis
+
+begin_goal
+  [R1.R,R1.i,R1.Q,R1.n]
+end_goal
+
+end_exercise

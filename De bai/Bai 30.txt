@@ -1,0 +1,17 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Hai bong den R1 = 600 va R2=300  mac song song bang day dan (R(dd)) co l=200m, S=0,17.10-6 m2, P=1,7.10-8 m. Vao mot mach co U=220V.
+      -	Tinh R(tm)
+      -	Tinh U1, U2
+end_problem
+
+begin_hypothesis
+  [[[A,B]=[0,{[R1,"DIENTRO"],[R2,"DIENTRO"],[R3,"DAYDAN"]},[{R1,R2},R3]]],[R1.R=600,R2.R=300,[A,B].U=220,R3.l=200,R3.p=1.7*10^(-8),R3.S=0.17*10^(-6)]]
+end_hypothesis
+
+begin_goal
+  [[A,B].R,R1.U,R2.U]
+end_goal
+
+end_exercise

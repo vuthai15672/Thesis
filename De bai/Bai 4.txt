@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Dien tro co the nguoi R = 72000, tinh cuong do dong dien I chay qua nguoi biet hieu dien the U = 220V.
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DIENTRO"]},R1]],[R1.R=72000, R1.U = 220]]
+end_hypothesis
+
+begin_goal
+  [R1.i]
+end_goal
+
+end_exercise

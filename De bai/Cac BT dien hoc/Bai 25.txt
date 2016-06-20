@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Hay tinh dien tro day dan constantan co l=3,14m; S=3,14.10-6m2 va dien tro suat P=0,5.10-6 m.
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DAYDAN"]},R1]],[R1.l=3.14,R1.S=3.14*10^(-6),R1.p=0.5*10^(-6)]]
+end_hypothesis
+
+begin_goal
+  [R1.R]
+end_goal
+
+end_exercise

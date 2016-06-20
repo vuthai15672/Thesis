@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Cho doan mach AB gom R1 = 50  va R2 = 100  mac noi tiep. Cuong do dong dien qua mach AB la I(AB) = 0,16A. Tinh U(AB)
+end_problem
+
+begin_hypothesis
+  [[[A,B]=[0,{[R1,"DIENTRO"],[R2,"DIENTRO"]},[R1,R2]]],[R1.R=50,R2.R=100,[A,B].i=0.16]]
+end_hypothesis
+
+begin_goal
+  [[A,B].U]
+end_goal
+
+end_exercise

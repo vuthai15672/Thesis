@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot tu lanh co P1=200W hoat dong trong t1=10h va mot may giat co P2=1000W hoat dong trong t2=2,5h. Tinh dien nang tieu thu hai thiet bi nay va so chi cua dien ke
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DIENTRO"]},R1],[B,N]=[0,{[R2,"DIENTRO"]},R2]],[R1.P=200, R1.t = 10*3600,R2.P=1000,R2.t=2.5*3600]]
+end_hypothesis
+
+begin_goal
+  [{R1+R2}.A, {R1+R2}.n]
+end_goal
+
+end_exercise

@@ -1,0 +1,17 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot bong den mac vao dong dien voi U=220V va I=0,341A. Thap den 4hx30. Tinh
+      -	R, P
+      -	A, n
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DIENTRO"]},R1]],[R1.U=220, R1.t = 4.5*3600,R1.i=0.341]]
+end_hypothesis
+
+begin_goal
+  [R1.R, R1.P,R1.A,R1.n]
+end_goal
+
+end_exercise

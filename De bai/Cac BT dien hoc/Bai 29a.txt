@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot bong den co R1 = 10  va dong dien qua co I=0,8A, U=12V, bong den mac noi tiep voi bien tro. Tinh R2 cua bien tro
+end_problem
+
+begin_hypothesis
+  [[[A,B]=[0,{[R1,"DIENTRO"],[R2,"DAYDAN"]},[R1,R2]]],[R1.R=0.085,[A,B].i=0.8,[A,B].U=12,R2.p=0.4*10^(-6),R2.S=10^(-6)]]
+end_hypothesis
+
+begin_goal
+  [R2.R]
+end_goal
+
+end_exercise

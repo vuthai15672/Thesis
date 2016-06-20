@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Ba bong den giong nhau co U dinh muc la 12V, mac noi tiep vao doan mach co hieu dien the U = 24V. Tinh hieu dien the tren moi bong den.
+end_problem
+
+begin_hypothesis
+  [[[A,B]=[0,{[R1,"DIENTRO"],[R2,"DIENTRO"],[R3,"DIENTRO"]},[R1,R2,R3]]],[R1.R=a,R2.R=a,R3.R=a,[A,B].U=24]]
+end_hypothesis
+
+begin_goal
+  [R1.U,R2.U,R3.U]
+end_goal
+
+end_exercise

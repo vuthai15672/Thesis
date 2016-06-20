@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot bep dien dat vao U dinh muc 220V trong thoi gian t=672s, dun soi 2l nuoc co t1=20o, C=4200J/KgK. Tinh R cua bep.
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DIENTRO"]},R1]],[R1.U=220, R1.t=672],{m=2,tem1=20,tem2=100,C=4200}]
+end_hypothesis
+
+begin_goal
+  [R1.R]
+end_goal
+
+end_exercise

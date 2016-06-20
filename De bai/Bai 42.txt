@@ -1,0 +1,18 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot am dien co ghi 220V-1000W su dung hieu dien the U=220V de dun soi 2l nuoc tu t1 =20o. Hieu suat cua am la 90%, C=4200J/KgK. Tinh
+     - Q1 can cung cap de dun soi nuoc
+     - Q ma am toa ra (Q(tp))
+     - Thoi gian t de dun soi nuoc tren
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DIENTRO"]},R1]],[R1.U=220,R1.P=1000,R1.H=90],{m=2,tem1=20,tem2=100,C=4200}]
+end_hypothesis
+
+begin_goal
+  [Qn,R1.Q,R1.t]
+end_goal
+
+end_exercise

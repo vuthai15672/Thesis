@@ -1,0 +1,15 @@
+#-----------------------
+begin_exercise
+begin_problem
+  Mot bep hoat dong lien tuc 2h o hieu dien the 22V thi chi so dien ke la 1,5. Tinh dien nang tieu thu, cong suat cua bep va cuong do dong dien qua bep.
+end_problem
+
+begin_hypothesis
+  [[[A,M]=[0,{[R1,"DIENTRO"]},R1]],[R1.U=22, R1.t = 2*3600,R1.n = 1.5]]
+end_hypothesis
+
+begin_goal
+  [R1.A, R1.P, R1.i]
+end_goal
+
+end_exercise
